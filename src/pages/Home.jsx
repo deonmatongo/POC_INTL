@@ -29,6 +29,16 @@ function HomeContent() {
     if (!document.querySelector('meta[name="keywords"]')) {
       document.head.appendChild(metaKeywords);
     }
+    
+    // Handle hash navigation to contact form
+    if (window.location.hash === '#contact-form') {
+      setTimeout(() => {
+        const element = document.getElementById('contact-form');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
   }, [t]);
 
   return (

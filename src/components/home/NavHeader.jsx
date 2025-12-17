@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Search, Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { useLanguage } from '@/components/LanguageContext';
 import SearchModal from '@/components/SearchModal';
 
 export default function NavHeader() {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [expertiseOpen, setExpertiseOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
@@ -17,6 +19,27 @@ export default function NavHeader() {
   const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const { language, switchLanguage, t } = useLanguage();
+  
+  const scrollToContact = () => {
+    const element = document.getElementById('contact-form');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+  
+  const handleContactClick = (e) => {
+    e.preventDefault();
+    const isHomePage = location.pathname === '/' || location.pathname === '/Home';
+    if (!isHomePage) {
+      navigate('/');
+      setTimeout(() => {
+        window.location.hash = 'contact-form';
+        scrollToContact();
+      }, 100);
+    } else {
+      scrollToContact();
+    }
+  };
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -85,6 +108,14 @@ export default function NavHeader() {
                   >
                     {item.label}
                   </Link>
+                ) : item.key === 'contact' ? (
+                  <a
+                    href="#contact-form"
+                    onClick={handleContactClick}
+                    className="text-white/90 hover:text-white text-sm font-bold tracking-wide transition-colors duration-300 cursor-pointer"
+                  >
+                    {item.label}
+                  </a>
                 ) : (
                   <span className="text-white/90 hover:text-white text-sm font-bold tracking-wide transition-colors duration-300 cursor-pointer">
                     {item.label}
@@ -221,8 +252,9 @@ export default function NavHeader() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-white relative z-[60] bg-transparent hover:bg-white/10 rounded p-1 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -367,9 +399,26 @@ export default function NavHeader() {
 
               {/* Contact */}
               <div className="border-t border-white/10 pt-2">
-                <span className="text-white/90 hover:text-white text-base font-bold py-3 block transition-colors cursor-pointer">
+                <a
+                  href="#contact-form"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setMobileMenuOpen(false);
+                    const isHomePage = location.pathname === '/' || location.pathname === '/Home';
+                    if (!isHomePage) {
+                      navigate('/');
+                      setTimeout(() => {
+                        window.location.hash = 'contact-form';
+                        scrollToContact();
+                      }, 200);
+                    } else {
+                      setTimeout(scrollToContact, 100);
+                    }
+                  }}
+                  className="text-white/90 hover:text-white text-base font-bold py-3 block transition-colors cursor-pointer"
+                >
                   {t('nav.contact')}
-                </span>
+                </a>
               </div>
 
               {/* Language Switcher */}
