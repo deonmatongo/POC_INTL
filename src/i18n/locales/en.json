@@ -1,0 +1,250 @@
+{
+  "nav": {
+    "home": "Home",
+    "expertise": "Expertise",
+    "solutions": "Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search"
+  },
+  "expertise": {
+    "weHelpYou": "We help you...",
+    "leadThroughChange": "Lead Through Change",
+    "leadThroughChangeDesc": "Unleashing potential in your teams and organization starts with you.",
+    "transformForGrowth": "Transform for Growth",
+    "transformForGrowthDesc": "Potential can't be unleashed without the supporting structures, skillsets and culture.",
+    "findKeepTopTalent": "Find and Keep Top Talent",
+    "findKeepTopTalentDesc": "You can hire people with high potential but unless they're engaged, you won't be able to maximize it."
+  },
+  "solutions": {
+    "organizationalTransformation": "Organizational Transformation",
+    "employeeEngagement": "Employee Engagement",
+    "performanceOptimization": "Performance Optimization",
+    "leadershipDevelopment": "Leadership & Professional Development",
+    "customerExperience": "Customer Experience",
+    "dataManagementInsights": "Data Management & Insights"
+  },
+  "about": {
+    "ourStory": "Our Story"
+  },
+  "hero": {
+    "title1": "From where you stand to where you strive",
+    "title2": "We make the journey possible.",
+    "pillar1": "OPTIMIZE PERFORMANCE.",
+    "pillar2": "MAXIMIZE POTENTIAL.",
+    "pillar3": "DELIVER RESULTS."
+  },
+  "unleash": {
+    "subtitle": "Your organization is full of potential",
+    "title1": "WE'RE HERE TO",
+    "title2": "UNLEASH IT",
+    "description": "POC is a global consulting firm that powers performance. We unlock the potential in your people and unleash transformation across your business—synchronizing strategy, operations, and talent to accelerate performance, fuel growth, and inspire a legacy of change. That's why the world's most forward-thinking companies across every major industry turn to us—for a shared commitment to lasting impact and the bold ambition to Be More Than."
+  },
+  "featuredInsights": {
+    "title": "FEATURED INSIGHTS",
+    "highlight": "HIGHLIGHT",
+    "theMindMeld": "The Mind Meld",
+    "howEmployeesReact": "How Employees Really React to Pay...",
+    "globalRewardsSurvey": "POC's Global Total Rewards Pulse Survey",
+    "reasonsCompaniesHesitate": "7 Reasons Companies Still Hesitate on Pay..."
+  },
+  "businessChallenges": {
+    "title": "What business challenge are you",
+    "title2": "looking to solve?",
+    "challenge1": "Driving organizational change",
+    "challenge2": "Managing talent costs",
+    "challenge3": "Improving sales results",
+    "challenge4": "Scaling recruitment",
+    "challenge5": "Identifying and developing leaders",
+    "challenge6": "Leveraging talent data",
+    "challenge7": "My next career move",
+    "searchPlaceholder": "I need to identify future leaders...",
+    "searchLabel": "Search for business challenges and solutions"
+  },
+  "stats": {
+    "title1": "We help businesses and the",
+    "title2": "people in them",
+    "title3": "thrive",
+    "description1": "Across the globe, the companies we partner with are driving",
+    "description2": "business transformation through people.",
+    "stat1": "We work with 96% of Fortune's top 50 world's most admired companies",
+    "stat2": "3 in every 4 of Fortune's best companies to work for are POC clients",
+    "stat3": "We work with 80% of the Drucker Institute's top performing companies",
+    "cta": "Explore our business impact"
+  },
+  "contact": {
+    "subtitle": "Change starts with a",
+    "title": "CONVERSATION",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company",
+    "jobTitle": "Job Title",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "helpType": "How Can We Help You?",
+    "select": "Select...",
+    "subscribe": "Yes, I Would Like To Receive Regular Updates On Thought Leadership, Industry Insights And Upcoming Events From POC. I Understand That I May Withdraw My Consent At Any Time. Please Review POC's",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": "Thank you for contacting us! We'll be in touch soon.",
+    "error": "Something went wrong. Please try again.",
+    "errorRequired": "Please fill in all required fields",
+    "countries": {
+      "unitedStates": "United States",
+      "unitedKingdom": "United Kingdom",
+      "canada": "Canada",
+      "australia": "Australia",
+      "germany": "Germany",
+      "france": "France",
+      "japan": "Japan",
+      "china": "China",
+      "india": "India",
+      "brazil": "Brazil",
+      "other": "Other"
+    },
+    "helpTypes": {
+      "executiveSearch": "Executive Search",
+      "leadershipDevelopment": "Leadership Development",
+      "organizationalStrategy": "Organizational Strategy",
+      "talentAcquisition": "Talent Acquisition",
+      "totalRewards": "Total Rewards",
+      "assessmentSuccession": "Assessment & Succession",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "capabilities": "Capabilities",
+    "products": "Products",
+    "industries": "Industries",
+    "functions": "Functions",
+    "careers": "Careers",
+    "about": "About",
+    "capability1": "Business Transformation",
+    "capability2": "Organization Strategy",
+    "capability3": "Total Rewards",
+    "capability4": "Assessment & Succession",
+    "capability5": "Talent Acquisition",
+    "capability6": "Leadership & Professional Development",
+    "product1": "Talent Suite Overview",
+    "product2": "POC Architect",
+    "product3": "POC Assess",
+    "product4": "POC Listen",
+    "product5": "POC Pay",
+    "product6": "POC Sell",
+    "industry1": "Consumer Markets",
+    "industry2": "Financial Services",
+    "industry3": "Healthcare",
+    "industry4": "Life Sciences",
+    "industry5": "Industrial",
+    "industry6": "Technology",
+    "industry7": "Government & Public Services",
+    "function1": "Board & CEO Services",
+    "function2": "Accounting",
+    "function3": "Corporate Affairs",
+    "function4": "Cybersecurity",
+    "function5": "Financial Services",
+    "function6": "Human Resources",
+    "function7": "Information Technology",
+    "function8": "Legal",
+    "function9": "Marketing",
+    "function10": "Risk Management",
+    "function11": "Sales",
+    "function12": "Supply Chain",
+    "function13": "Sustainability",
+    "career1": "Jobs with our clients",
+    "career2": "Advance your career",
+    "career3": "Join POC",
+    "about1": "Our Story",
+    "about2": "Find a Consultant",
+    "about3": "Find an Office",
+    "about4": "Business Impact",
+    "about5": "Corporate Responsibility",
+    "about6": "Investor Relations",
+    "about7": "Newsroom",
+    "copyright": "© 2025 POC. All rights reserved.",
+    "contact": "Contact",
+    "store": "Store",
+    "subscribe": "Subscribe",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "cookieSettings": "Cookie Settings",
+    "doNotSell": "Do Not Sell My Info",
+    "accessibility": "Accessibility"
+  },
+  "search": {
+    "placeholder": "Search for services, insights, or pages...",
+    "startTyping": "Start typing to search across our site...",
+    "noResults": "No results found for",
+    "pages": "Pages",
+    "services": "Services",
+    "insights": "Insights"
+  },
+  "meta": {
+    "title": "POC International - Global Consulting Firm | Performance & Transformation",
+    "description": "POC International is a global consulting firm that powers performance. We unlock potential in your people and unleash transformation across your business—synchronizing strategy, operations, and talent to accelerate performance and fuel growth.",
+    "keywords": "consulting, business transformation, organizational development, talent management, leadership development, performance optimization, employee engagement"
+  },
+  "common": {
+    "and": "And"
+  },
+  "pages": {
+    "organizationalTransformation": {
+      "title": "Organizational Transformation Services | POC International",
+      "metaDescription": "Transform your organization for lasting success. POC International helps you pair bold vision with smart execution, building structures that unite leadership, culture, and people.",
+      "heroTitle": "Transforming Organizations for Lasting Success",
+      "content1": "In today's competitive marketplace, the companies that rise above the rest are those that pair bold vision with smart execution. Success comes not only from crafting a forward-looking strategy, but from building an organizational structure that unites leadership, culture, and people behind it.",
+      "content2": "When every individual is connected to a clear sense of purpose, the result is a motivated, empowered workforce—driving productivity and accelerating your business toward its goals."
+    },
+    "employeeEngagement": {
+      "title": "Employee Engagement Solutions | POC International",
+      "metaDescription": "Drive productivity, retention, and profitability through employee engagement. POC International helps you create a motivated, connected workforce committed to achieving business goals.",
+      "heroTitle": "Employee Engagement",
+      "content1": "Leaders who tune into their team's perspectives inspire stronger performance and trust. Employee engagement drives productivity, retention, customer satisfaction, and profitability. Organizations that invest in employee engagement create a workforce that is motivated, connected, and committed to achieving business goals. POC International will help you establish engagement routines that work for your business and your culture."
+    },
+    "performanceOptimization": {
+      "title": "Performance Optimization Consulting | POC International",
+      "metaDescription": "Optimize performance, maximize potential, deliver results. POC International helps you define goals, align resources, and create capacity to reach ambitious objectives through process optimization and talent development.",
+      "heroTitle": "Optimize performance. Maximize potential. Deliver Results",
+      "content1": "At its core, performance optimization is about clarity: defining what we're trying to achieve and aligning the right resources to make it possible. Success isn't just about setting ambitious goals — it's about creating the capacity to reach them. That means sharpening focus, streamlining processes, and ensuring every effort moves the organization closer to its objectives.",
+      "content2": "The path forward requires a deliberate mix of tools, efficiency, and talent. By leveraging smart technologies and systems such as AI, organizations can eliminate friction and free up time for higher-value work. Upskilling ensures teams have the capabilities to meet evolving demands, while prioritization keeps energy directed toward what matters most. And ultimately, it's about people — placing the right individuals in the right roles, where their strengths can drive impact.",
+      "content3": "Performance optimization isn't a one-time initiative; it's a mindset. When organizations embrace it, they unlock agility, resilience, and the ability to thrive in a world of constant change."
+    },
+    "leadershipDevelopment": {
+      "title": "Leadership & Professional Development | POC International",
+      "metaDescription": "Develop authentic leaders who inspire trust and drive transformation. POC International helps you champion inclusive leadership that unlocks collective genius and empowers diverse perspectives.",
+      "heroTitle": "Leadership & Professional Development",
+      "content1": "Disruption and uncertainty are everywhere — and more change is coming. Thriving in this environment requires leaders who inspire trust, care deeply, and lead with authenticity.",
+      "content2": "Inclusive leaders unlock collective genius, empower diverse perspectives, and drive transformation. They are the game-changers, supporters, disruptors, and rebuilders who help us work smarter, deliver innovation, and grow stronger together.",
+      "content3": "Organizations must champion and develop these leaders now to succeed in the future. POC International will assess your leadership and ensure you have the tools for your organization to thrive."
+    },
+    "customerExperience": {
+      "title": "Customer Experience Transformation | POC International",
+      "metaDescription": "Transform client interactions into exceptional journeys. POC International helps you deliver meaningful experiences at every touchpoint, building trust and driving durable business outcomes.",
+      "heroTitle": "Customer Experience",
+      "content1": "In today's market, transactional interactions are no longer enough to satisfy clients, differentiate your brand, or secure long-term loyalty. What sets leading organizations apart is the ability to deliver meaningful experiences at every touchpoint. POC International partners with your business to transform routine exchanges into exceptional client journeys, anchored in efficiency, accuracy, and a deep understanding of client needs.",
+      "content2": "By fostering a culture that prioritizes the client first, organizations strengthen retention and unlock new avenues for growth. POC International helps you cultivate a positive work environment and a sustainable enterprise culture where employees thrive. In turn, your teams are empowered to deliver excellence consistently, creating client experiences that build trust and drive durable business outcomes."
+    },
+    "dataDrivenInsights": {
+      "title": "Data Management & Insights Solutions | POC International",
+      "metaDescription": "Become a data-driven organization. POC International helps you leverage analytics, identify KPIs, develop dashboards, and establish business reviews to drive informed decision-making and sustainable growth.",
+      "heroTitle": "Data Driven Insights",
+      "content1": "Leading a data-driven business empowers organizations to make informed, objective decisions that drive consistent and measurable results. By leveraging real-time analytics and comprehensive data sets, leaders can quickly identify emerging trends, optimize processes, and adapt strategies to changing market conditions. This approach not only enhances operational efficiency but also creates a sustainable competitive advantage by enabling proactive, rather than reactive, decision-making. Furthermore, a data-centric culture fosters transparency and accountability, ensuring that teams are aligned with organizational goals and performance metrics are clearly understood.",
+      "content2": "Making decisions based on data significantly reduces the risk of costly missteps by minimizing reliance on intuition or anecdotal evidence. It enables leaders to allocate resources more efficiently, measure the success of initiatives, and respond swiftly to both challenges and opportunities. Additionally, data-based decision-making deepens your understanding of customer needs, allowing for more personalized experiences and improved satisfaction. Ultimately, a commitment to data-driven practices builds trust among stakeholders and positions the organization for sustained innovation and long-term success and growth.",
+      "content3": "POC-Intl will help you become a data driven organization. We will help you identify key performance indicators, develop management reporting and dashboards, improve the data literacy of your organization, and establish regular business reviews to manage operational performance."
+    },
+    "ourStory": {
+      "title": "Our Story - About POC International | Global Consulting Firm",
+      "metaDescription": "Discover POC International's 30+ years of leadership experience guiding Fortune 500 companies through transformation. We deliver innovative solutions that drive sustainable outcomes across global enterprises.",
+      "heroTitle": "Our Story",
+      "content1": "Business as usual is no longer a viable strategy in today's rapidly evolving environment. Emerging technologies, shifting customer expectations, and rising operational costs demand that organizations embrace innovation to remain competitive. Success now depends on developing new capabilities and continuously upskilling talent to meet the challenges of a dynamic marketplace.",
+      "content2": "This is where POC International adds measurable value. With over 30 years of leadership experience across multiple Fortune 500 companies, we have guided organizations through complex mergers and acquisitions, large-scale change management initiatives, and periods of financial instability. Our global experience uniquely positions us to support international enterprises, helping them navigate the complexities of culturally diverse workforces and align teams across geographies toward shared goals.",
+      "content3": "We specialize in equipping workforces with adaptability skills and fostering cultures that thrive on transformation. Leveraging our deep expertise in complex and ever-changing industries such as IT, Finance, and Transportation, we deliver imaginative, innovative, and unconventional solutions that drive sustainable, positive outcomes.",
+      "content4": "At POC International we operate with integrity, trust, and confidentiality, ensuring that every partnership is built on a foundation of credibility and shared commitment. Let us help you unlock your next milestone and position your organization for enduring success in a global marketplace."
+    }
+  }
+}
+

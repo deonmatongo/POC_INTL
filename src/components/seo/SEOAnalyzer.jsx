@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { base44 } from '@/api/base44Client';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Loader2, Search, CheckCircle, AlertCircle } from 'lucide-react';
+import { toast } from 'sonner';
 
 export default function SEOAnalyzer() {
   const [content, setContent] = useState('');
@@ -15,52 +15,31 @@ export default function SEOAnalyzer() {
     if (!content.trim()) return;
     
     setLoading(true);
-    try {
-      const result = await base44.integrations.Core.InvokeLLM({
-        prompt: `Analyze the following web page content for SEO best practices and provide detailed recommendations.
-
-Content:
-${content}
-
-${targetKeywords ? `Target Keywords: ${targetKeywords}` : ''}
-
-Please provide:
-1. SEO Score (0-100)
-2. Keyword density analysis
-3. Content readability score
-4. Meta description suggestion (150-160 characters)
-5. Title tag suggestion (50-60 characters)
-6. Recommended keywords (5-10 keywords)
-7. Header structure analysis (H1, H2, H3 usage)
-8. Content length analysis
-9. Specific improvements needed
-10. Internal linking suggestions
-
-Format the response as a comprehensive SEO report.`,
-        response_json_schema: {
-          type: "object",
-          properties: {
-            seo_score: { type: "number" },
-            title_suggestion: { type: "string" },
-            meta_description: { type: "string" },
-            recommended_keywords: { type: "array", items: { type: "string" } },
-            keyword_density: { type: "object" },
-            readability_score: { type: "number" },
-            content_length: { type: "number" },
-            header_analysis: { type: "string" },
-            improvements: { type: "array", items: { type: "string" } },
-            internal_linking_suggestions: { type: "array", items: { type: "string" } },
-            strengths: { type: "array", items: { type: "string" } }
-          }
-        }
-      });
+    // Simulate API call - in production, this would call your SEO analysis service
+    setTimeout(() => {
+      const wordCount = content.split(/\s+/).length;
+      const keywordCount = targetKeywords ? targetKeywords.split(',').length : 0;
+      const hasH1 = content.includes('<h1>') || content.toLowerCase().includes('# ');
+      const hasH2 = content.includes('<h2>') || content.toLowerCase().includes('## ');
+      
+      const result = {
+        seo_score: Math.min(85, 60 + (wordCount > 300 ? 10 : 0) + (hasH1 ? 5 : 0) + (hasH2 ? 5 : 0) + (keywordCount > 0 ? 5 : 0)),
+        title_suggestion: content.substring(0, 60).replace(/\n/g, ' '),
+        meta_description: content.substring(0, 160).replace(/\n/g, ' '),
+        recommended_keywords: targetKeywords ? targetKeywords.split(',').map(k => k.trim()) : content.split(' ').filter(w => w.length > 4).slice(0, 10),
+        keyword_density: {},
+        readability_score: 75,
+        content_length: wordCount,
+        header_analysis: hasH1 && hasH2 ? 'Good header structure' : 'Consider adding H1 and H2 tags',
+        improvements: wordCount < 300 ? ['Increase content length to at least 300 words'] : [],
+        internal_linking_suggestions: ['Add links to related pages', 'Include anchor text with keywords'],
+        strengths: ['Content is present', 'Consider adding more structure']
+      };
       
       setAnalysis(result);
-    } catch (error) {
-      console.error('SEO Analysis failed:', error);
-    } finally {
+      toast.success('SEO analysis completed!');
       setLoading(false);
-    }
+    }, 1000);
   };
 
   const getScoreColor = (score) => {

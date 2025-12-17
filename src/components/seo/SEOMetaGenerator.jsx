@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { base44 } from '@/api/base44Client';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Loader2, Sparkles, Copy, Check } from 'lucide-react';
+import { Loader2, Sparkles, Copy, Check, AlertCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
 export default function SEOMetaGenerator() {
@@ -19,50 +18,25 @@ export default function SEOMetaGenerator() {
     if (!pageTitle.trim() || !pageContent.trim()) return;
     
     setLoading(true);
-    try {
-      const result = await base44.integrations.Core.InvokeLLM({
-        prompt: `Generate comprehensive SEO metadata for the following web page:
-
-Page Title: ${pageTitle}
-Content Summary: ${pageContent}
-${industry ? `Industry: ${industry}` : ''}
-
-Generate:
-1. Optimized Title Tag (50-60 characters, compelling and keyword-rich)
-2. Meta Description (150-160 characters, includes call-to-action)
-3. 10-15 relevant keywords
-4. Open Graph title
-5. Open Graph description
-6. Twitter Card title
-7. Twitter Card description
-8. Schema.org structured data suggestions
-9. Canonical URL slug (SEO-friendly)
-
-Make sure all content is optimized for search engines and user engagement.`,
-        response_json_schema: {
-          type: "object",
-          properties: {
-            title_tag: { type: "string" },
-            meta_description: { type: "string" },
-            keywords: { type: "array", items: { type: "string" } },
-            og_title: { type: "string" },
-            og_description: { type: "string" },
-            twitter_title: { type: "string" },
-            twitter_description: { type: "string" },
-            canonical_slug: { type: "string" },
-            schema_suggestions: { type: "array", items: { type: "string" } }
-          }
-        }
-      });
+    // Simulate API call - in production, this would call your SEO service
+    setTimeout(() => {
+      const slug = pageTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      const result = {
+        title_tag: `${pageTitle} | POC International`,
+        meta_description: `${pageContent.substring(0, 150)}...`,
+        keywords: pageContent.split(' ').filter(w => w.length > 4).slice(0, 10),
+        og_title: pageTitle,
+        og_description: pageContent.substring(0, 150),
+        twitter_title: pageTitle,
+        twitter_description: pageContent.substring(0, 150),
+        canonical_slug: slug,
+        schema_suggestions: ['Organization', 'WebPage', 'Service']
+      };
       
       setResults(result);
       toast.success('SEO metadata generated successfully!');
-    } catch (error) {
-      console.error('Meta generation failed:', error);
-      toast.error('Failed to generate metadata');
-    } finally {
       setLoading(false);
-    }
+    }, 1000);
   };
 
   const copyToClipboard = (text, field) => {

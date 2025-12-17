@@ -1,8 +1,6 @@
-# Base44 App
+# POC International
 
-
-This app was created automatically by Base44.
-It's a Vite+React app that communicates with the Base44 API.
+POC International is a global consulting firm website built with React and Vite.
 
 ## Running the app
 
@@ -17,4 +15,9 @@ npm run dev
 npm run build
 ```
 
-For more information and support, please contact Base44 support at app@base44.com.
+## Features
+
+- Multi-language support (English and French)
+- Responsive design
+- Modern UI with Tailwind CSS
+- SEO optimized pages

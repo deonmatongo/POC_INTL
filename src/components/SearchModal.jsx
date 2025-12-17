@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X, FileText, Briefcase, Lightbulb, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
+import { useLanguage } from '@/components/LanguageContext';
 
 const searchableContent = [
   // Pages
@@ -30,6 +31,7 @@ const searchableContent = [
 ];
 
 export default function SearchModal({ isOpen, onClose }) {
+  const { t } = useLanguage();
   const [searchQuery, setSearchQuery] = useState('');
   const [results, setResults] = useState([]);
 
@@ -101,7 +103,7 @@ export default function SearchModal({ isOpen, onClose }) {
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search for services, insights, or pages..."
+                    placeholder={t('search.placeholder')}
                     className="w-full pl-12 pr-12 py-4 text-lg border-0 focus:outline-none focus:ring-0"
                     autoFocus
                   />
@@ -119,18 +121,18 @@ export default function SearchModal({ isOpen, onClose }) {
                 {searchQuery.trim().length === 0 ? (
                   <div className="p-12 text-center text-gray-500">
                     <Search className="w-12 h-12 mx-auto mb-4 text-gray-300" />
-                    <p className="text-sm">Start typing to search across our site...</p>
+                    <p className="text-sm">{t('search.startTyping')}</p>
                   </div>
                 ) : results.length === 0 ? (
                   <div className="p-12 text-center text-gray-500">
-                    <p className="text-sm">No results found for "{searchQuery}"</p>
+                    <p className="text-sm">{t('search.noResults')} "{searchQuery}"</p>
                   </div>
                 ) : (
                   <div className="p-6 space-y-6">
                     {/* Pages */}
                     {groupedResults.pages.length > 0 && (
                       <div>
-                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Pages</h3>
+                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">{t('search.pages')}</h3>
                         <div className="space-y-2">
                           {groupedResults.pages.map((item, idx) => {
                             const Icon = getIcon(item.type);
@@ -157,7 +159,7 @@ export default function SearchModal({ isOpen, onClose }) {
                     {/* Services */}
                     {groupedResults.services.length > 0 && (
                       <div>
-                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Services</h3>
+                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">{t('search.services')}</h3>
                         <div className="space-y-2">
                           {groupedResults.services.map((item, idx) => {
                             const Icon = getIcon(item.type);
@@ -181,7 +183,7 @@ export default function SearchModal({ isOpen, onClose }) {
                     {/* Insights */}
                     {groupedResults.insights.length > 0 && (
                       <div>
-                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Insights</h3>
+                        <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">{t('search.insights')}</h3>
                         <div className="space-y-2">
                           {groupedResults.insights.map((item, idx) => {
                             const Icon = getIcon(item.type);

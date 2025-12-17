@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { LanguageProvider } from '@/components/LanguageContext';
+import { LanguageProvider, useLanguage } from '@/components/LanguageContext';
 import NavHeader from '@/components/home/NavHeader';
 import HeroSection from '@/components/home/HeroSection';
 import UnleashSection from '@/components/home/UnleashSection';
@@ -10,40 +10,48 @@ import ContactForm from '@/components/home/ContactForm';
 import Footer from '@/components/home/Footer';
 import BackToTop from '@/components/home/BackToTop';
 
-export default function Home() {
+function HomeContent() {
+  const { t } = useLanguage();
+  
   useEffect(() => {
-    document.title = 'POC International - Global Consulting Firm | Performance & Transformation';
+    document.title = t('meta.title');
     
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'POC International is a global consulting firm that powers performance. We unlock potential in your people and unleash transformation across your business—synchronizing strategy, operations, and talent to accelerate performance and fuel growth.';
+    metaDescription.content = t('meta.description');
     if (!document.querySelector('meta[name="description"]')) {
       document.head.appendChild(metaDescription);
     }
 
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta');
     metaKeywords.name = 'keywords';
-    metaKeywords.content = 'consulting, business transformation, organizational development, talent management, leadership development, performance optimization, employee engagement';
+    metaKeywords.content = t('meta.keywords');
     if (!document.querySelector('meta[name="keywords"]')) {
       document.head.appendChild(metaKeywords);
     }
-  }, []);
+  }, [t]);
 
   return (
+    <div className="min-h-screen bg-[#0d1117]">
+      <NavHeader />
+      <main>
+        <HeroSection />
+        <UnleashSection />
+        <FeaturedInsights />
+        <BusinessChallenges />
+        <StatsSection />
+        <ContactForm />
+      </main>
+      <Footer />
+      <BackToTop />
+    </div>
+  );
+}
+
+export default function Home() {
+  return (
     <LanguageProvider>
-      <div className="min-h-screen bg-[#0d1117]">
-        <NavHeader />
-        <main>
-          <HeroSection />
-          <UnleashSection />
-          <FeaturedInsights />
-          <BusinessChallenges />
-          <StatsSection />
-          <ContactForm />
-        </main>
-        <Footer />
-        <BackToTop />
-      </div>
+      <HomeContent />
     </LanguageProvider>
   );
 }

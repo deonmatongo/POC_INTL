@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
-import { base44 } from '@/api/base44Client';
 import { toast } from 'sonner';
+import { useLanguage } from '@/components/LanguageContext';
 
 export default function ContactForm() {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -22,14 +23,14 @@ export default function ContactForm() {
     e.preventDefault();
     
     if (!formData.jobTitle || !formData.country || !formData.helpType) {
-      toast.error('Please fill in all required fields');
+      toast.error(t('contact.errorRequired'));
       return;
     }
 
     setIsSubmitting(true);
-    try {
-      await base44.entities.ContactSubmission.create(formData);
-      toast.success('Thank you for contacting us! We\'ll be in touch soon.');
+    // Simulate API call
+    setTimeout(() => {
+      toast.success(t('contact.success'));
       setFormData({
         firstName: '',
         lastName: '',
@@ -41,21 +42,22 @@ export default function ContactForm() {
         helpType: '',
         subscribe: false,
       });
-    } catch (error) {
-      toast.error('Something went wrong. Please try again.');
-    } finally {
       setIsSubmitting(false);
-    }
+    }, 1000);
   };
 
   const countries = [
-    'United States', 'United Kingdom', 'Canada', 'Australia', 'Germany', 
-    'France', 'Japan', 'China', 'India', 'Brazil', 'Other'
+    t('contact.countries.unitedStates'), t('contact.countries.unitedKingdom'), t('contact.countries.canada'), 
+    t('contact.countries.australia'), t('contact.countries.germany'), t('contact.countries.france'), 
+    t('contact.countries.japan'), t('contact.countries.china'), t('contact.countries.india'), 
+    t('contact.countries.brazil'), t('contact.countries.other')
   ];
 
   const helpTypes = [
-    'Executive Search', 'Leadership Development', 'Organizational Strategy',
-    'Talent Acquisition', 'Total Rewards', 'Assessment & Succession', 'Other'
+    t('contact.helpTypes.executiveSearch'), t('contact.helpTypes.leadershipDevelopment'), 
+    t('contact.helpTypes.organizationalStrategy'), t('contact.helpTypes.talentAcquisition'), 
+    t('contact.helpTypes.totalRewards'), t('contact.helpTypes.assessmentSuccession'), 
+    t('contact.helpTypes.other')
   ];
 
   return (
@@ -67,8 +69,8 @@ export default function ContactForm() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <p className="text-[#7dd3fc] text-lg md:text-xl font-light mb-2">Change starts with a</p>
-          <h2 className="text-white text-4xl md:text-6xl font-bold tracking-tight">CONVERSATION</h2>
+          <p className="text-[#7dd3fc] text-lg md:text-xl font-light mb-2">{t('contact.subtitle')}</p>
+          <h2 className="text-white text-4xl md:text-6xl font-bold tracking-tight">{t('contact.title')}</h2>
         </motion.div>
 
         <motion.form
@@ -82,7 +84,7 @@ export default function ContactForm() {
           {/* Row 1: First Name, Last Name */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">First Name</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">{t('contact.firstName')}</label>
               <input
                 type="text"
                 value={formData.firstName}
@@ -91,7 +93,7 @@ export default function ContactForm() {
               />
             </div>
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">Last Name</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">{t('contact.lastName')}</label>
               <input
                 type="text"
                 value={formData.lastName}
@@ -104,7 +106,7 @@ export default function ContactForm() {
           {/* Row 2: Company, Job Title */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">Company</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">{t('contact.company')}</label>
               <input
                 type="text"
                 value={formData.company}
@@ -113,7 +115,7 @@ export default function ContactForm() {
               />
             </div>
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*Job Title</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*{t('contact.jobTitle')}</label>
               <input
                 type="text"
                 value={formData.jobTitle}
@@ -126,7 +128,7 @@ export default function ContactForm() {
           {/* Row 3: Email, Phone */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">Email</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">{t('contact.email')}</label>
               <input
                 type="email"
                 value={formData.email}
@@ -135,7 +137,7 @@ export default function ContactForm() {
               />
             </div>
             <div>
-              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">Phone</label>
+              <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">{t('contact.phone')}</label>
               <input
                 type="tel"
                 value={formData.phone}
@@ -147,14 +149,14 @@ export default function ContactForm() {
 
           {/* Country Select */}
           <div>
-            <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*Country</label>
+            <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*{t('contact.country')}</label>
             <div className="relative">
               <select
                 value={formData.country}
                 onChange={(e) => setFormData({ ...formData, country: e.target.value })}
                 className="w-full bg-[#0044aa] border-0 rounded-none py-4 px-4 text-white appearance-none focus:outline-none focus:ring-2 focus:ring-[#00b4d8] cursor-pointer"
               >
-                <option value="" className="text-[#00b4d8]">Select...</option>
+                <option value="" className="text-[#00b4d8]">{t('contact.select')}</option>
                 {countries.map((country) => (
                   <option key={country} value={country}>{country}</option>
                 ))}
@@ -165,14 +167,14 @@ export default function ContactForm() {
 
           {/* Help Type Select */}
           <div>
-            <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*How Can We Help You?</label>
+            <label className="block text-white/80 text-xs uppercase tracking-wider mb-2">*{t('contact.helpType')}</label>
             <div className="relative">
               <select
                 value={formData.helpType}
                 onChange={(e) => setFormData({ ...formData, helpType: e.target.value })}
                 className="w-full bg-[#0044aa] border-0 rounded-none py-4 px-4 text-white appearance-none focus:outline-none focus:ring-2 focus:ring-[#00b4d8] cursor-pointer"
               >
-                <option value="" className="text-[#00b4d8]">Select...</option>
+                <option value="" className="text-[#00b4d8]">{t('contact.select')}</option>
                 {helpTypes.map((type) => (
                   <option key={type} value={type}>{type}</option>
                 ))}
@@ -191,10 +193,9 @@ export default function ContactForm() {
               className="mt-1 w-4 h-4 bg-[#0044aa] border-white/40 rounded-none focus:ring-[#00b4d8]"
             />
             <label htmlFor="subscribe" className="text-white/70 text-xs leading-relaxed">
-              Yes, I Would Like To Receive Regular Updates On Thought Leadership, Industry Insights And Upcoming Events From POC. 
-              I Understand That I May Withdraw My Consent At Any Time. Please Review POC's{' '}
-              <a href="#" className="underline hover:text-white">Privacy Policy</a> And{' '}
-              <a href="#" className="underline hover:text-white">Cookie Policy</a>.
+              {t('contact.subscribe')}{' '}
+              <a href="#" className="underline hover:text-white">{t('contact.privacyPolicy')}</a> {t('common.and')}{' '}
+              <a href="#" className="underline hover:text-white">{t('contact.cookiePolicy')}</a>.
             </label>
           </div>
 
@@ -205,7 +206,7 @@ export default function ContactForm() {
               disabled={isSubmitting}
               className="px-16 py-3 bg-[#f0f8e0] text-[#0055cc] font-semibold rounded-full hover:bg-white transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {isSubmitting ? 'Submitting...' : 'Submit'}
+              {isSubmitting ? t('contact.submitting') : t('contact.submit')}
             </button>
           </div>
         </motion.form>

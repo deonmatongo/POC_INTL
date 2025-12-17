@@ -1,11 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/components/LanguageContext';
 
 export default function HeroSection() {
+  const { t } = useLanguage();
+  
   const pillars = [
-    'OPTIMIZE PERFORMANCE.',
-    'MAXIMIZE POTENTIAL.',
-    'DELIVER RESULTS.'
+    t('hero.pillar1'),
+    t('hero.pillar2'),
+    t('hero.pillar3')
   ];
 
   return (
@@ -47,10 +50,10 @@ export default function HeroSection() {
           transition={{ duration: 1, ease: 'easeOut' }}
         >
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-light italic leading-tight mb-4">
-            From where you stand to where you strive
+            {t('hero.title1')}
           </h1>
           <h2 className="text-white text-3xl md:text-5xl lg:text-6xl font-light italic">
-            We make the journey possible.
+            {t('hero.title2')}
           </h2>
         </motion.div>
 

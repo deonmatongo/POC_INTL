@@ -1,29 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { useLanguage } from '@/components/LanguageContext';
 
 export default function FeaturedInsights() {
+  const { t } = useLanguage();
+  
   const insights = [
     {
       type: 'highlight',
-      label: 'HIGHLIGHT',
-      title: 'The Mind Meld',
+      label: t('featuredInsights.highlight'),
+      title: t('featuredInsights.theMindMeld'),
       image: 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&q=80',
     },
     {
       type: 'medium',
-      title: 'How Employees Really React to Pay...',
+      title: t('featuredInsights.howEmployeesReact'),
       image: 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=600&q=80',
     },
     {
       type: 'medium',
-      title: "POC's Global Total Rewards Pulse Survey",
+      title: t('featuredInsights.globalRewardsSurvey'),
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80',
       bgColor: 'bg-[#0066ff]',
     },
     {
       type: 'small',
-      title: '7 Reasons Companies Still Hesitate on Pay...',
+      title: t('featuredInsights.reasonsCompaniesHesitate'),
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80',
     },
   ];
@@ -38,7 +41,7 @@ export default function FeaturedInsights() {
           viewport={{ once: true }}
           className="flex items-center gap-4 mb-10"
         >
-          <h2 className="text-white/60 text-sm tracking-[0.2em] font-medium">FEATURED INSIGHTS</h2>
+          <h2 className="text-white/60 text-sm tracking-[0.2em] font-medium">{t('featuredInsights.title')}</h2>
           <div className="flex-1 h-px bg-white/20" aria-hidden="true" />
         </motion.div>
 

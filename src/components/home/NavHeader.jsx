@@ -27,26 +27,26 @@ export default function NavHeader() {
   }, []);
 
   const navItems = [
-    { label: t('home'), key: 'home', page: 'Home' },
-    { label: t('expertise'), key: 'expertise' },
-    { label: t('solutions'), key: 'solutions' },
-    { label: t('about'), key: 'about' },
-    { label: t('contact'), key: 'contact' }
+    { label: t('nav.home'), key: 'home', page: 'Home' },
+    { label: t('nav.expertise'), key: 'expertise' },
+    { label: t('nav.solutions'), key: 'solutions' },
+    { label: t('nav.about'), key: 'about' },
+    { label: t('nav.contact'), key: 'contact' }
   ];
   
   const expertiseMenu = [
-    { title: t('leadThroughChange'), description: t('leadThroughChangeDesc') },
-    { title: t('transformForGrowth'), description: t('transformForGrowthDesc') },
-    { title: t('findKeepTopTalent'), description: t('findKeepTopTalentDesc') },
+    { title: t('expertise.leadThroughChange'), description: t('expertise.leadThroughChangeDesc') },
+    { title: t('expertise.transformForGrowth'), description: t('expertise.transformForGrowthDesc') },
+    { title: t('expertise.findKeepTopTalent'), description: t('expertise.findKeepTopTalentDesc') },
   ];
 
   const solutionsMenu = [
-    { title: t('organizationalTransformation'), page: 'OrganizationalTransformation', items: [{ title: t('employeeEngagement'), page: 'EmployeeEngagement' }] },
-    { title: t('performanceOptimization'), page: 'PerformanceOptimization', items: [{ title: t('leadershipDevelopment'), page: 'LeadershipDevelopment' }] },
-    { title: t('customerExperience'), page: 'CustomerExperience', items: [{ title: t('dataManagementInsights'), page: 'DataDrivenInsights' }] },
+    { title: t('solutions.organizationalTransformation'), page: 'OrganizationalTransformation', items: [{ title: t('solutions.employeeEngagement'), page: 'EmployeeEngagement' }] },
+    { title: t('solutions.performanceOptimization'), page: 'PerformanceOptimization', items: [{ title: t('solutions.leadershipDevelopment'), page: 'LeadershipDevelopment' }] },
+    { title: t('solutions.customerExperience'), page: 'CustomerExperience', items: [{ title: t('solutions.dataManagementInsights'), page: 'DataDrivenInsights' }] },
   ];
   
-  const aboutMenu = [{ title: t('ourStory'), page: 'OurStory' }];
+  const aboutMenu = [{ title: t('about.ourStory'), page: 'OurStory' }];
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0d1117]/95 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
@@ -103,7 +103,7 @@ export default function NavHeader() {
                         className="fixed left-0 right-0 top-[88px] pt-4 z-50 flex justify-center"
                       >
                         <div className="bg-white rounded-lg shadow-2xl px-8 py-8 w-full max-w-[800px] mx-6">
-                          <h3 className="text-[#0066ff] text-lg font-semibold mb-6">{t('weHelpYou')}</h3>
+                          <h3 className="text-[#0066ff] text-lg font-semibold mb-6">{t('expertise.weHelpYou')}</h3>
                           <div className="space-y-6">
                             {expertiseMenu.map((item, index) => (
                               <div key={index} className="space-y-2">
@@ -213,7 +213,7 @@ export default function NavHeader() {
             <button 
               onClick={() => setSearchOpen(true)}
               className="text-white/80 hover:text-white transition-colors"
-              aria-label="Search"
+              aria-label={t('nav.search')}
             >
               <Search className="w-5 h-5" />
             </button>
@@ -258,7 +258,7 @@ export default function NavHeader() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-white/90 hover:text-white text-base font-bold py-3 transition-colors"
               >
-                {t('home')}
+                {t('nav.home')}
               </Link>
 
               {/* Expertise */}
@@ -267,7 +267,7 @@ export default function NavHeader() {
                   onClick={() => setMobileExpertiseOpen(!mobileExpertiseOpen)}
                   className="w-full flex items-center justify-between text-white/90 hover:text-white text-base font-bold py-3 transition-colors"
                 >
-                  <span>{t('expertise')}</span>
+                  <span>{t('nav.expertise')}</span>
                   {mobileExpertiseOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
                 </button>
                 <AnimatePresence>
@@ -278,7 +278,7 @@ export default function NavHeader() {
                       exit={{ opacity: 0, height: 0 }}
                       className="pl-4 space-y-3 py-3"
                     >
-                      <p className="text-[#0088ff] text-sm font-semibold mb-2">{t('weHelpYou')}</p>
+                      <p className="text-[#0088ff] text-sm font-semibold mb-2">{t('expertise.weHelpYou')}</p>
                       {expertiseMenu.map((item, index) => (
                         <div key={index} className="space-y-1">
                           <p className="text-white/90 text-sm font-semibold">{item.title}</p>
@@ -296,7 +296,7 @@ export default function NavHeader() {
                   onClick={() => setMobileSolutionsOpen(!mobileSolutionsOpen)}
                   className="w-full flex items-center justify-between text-white/90 hover:text-white text-base font-bold py-3 transition-colors"
                 >
-                  <span>{t('solutions')}</span>
+                  <span>{t('nav.solutions')}</span>
                   {mobileSolutionsOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
                 </button>
                 <AnimatePresence>
@@ -339,7 +339,7 @@ export default function NavHeader() {
                   onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
                   className="w-full flex items-center justify-between text-white/90 hover:text-white text-base font-bold py-3 transition-colors"
                 >
-                  <span>{t('about')}</span>
+                  <span>{t('nav.about')}</span>
                   {mobileAboutOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
                 </button>
                 <AnimatePresence>
@@ -368,7 +368,7 @@ export default function NavHeader() {
               {/* Contact */}
               <div className="border-t border-white/10 pt-2">
                 <span className="text-white/90 hover:text-white text-base font-bold py-3 block transition-colors cursor-pointer">
-                  {t('contact')}
+                  {t('nav.contact')}
                 </span>
               </div>
 

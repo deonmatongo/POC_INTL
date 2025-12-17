@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Square } from 'lucide-react';
+import { useLanguage } from '@/components/LanguageContext';
 
 export default function BusinessChallenges() {
-  const [searchValue, setSearchValue] = useState('I need to identify future leaders...');
+  const { t } = useLanguage();
+  const [searchValue, setSearchValue] = useState(t('businessChallenges.searchPlaceholder'));
 
   const challenges = [
-    'Driving organizational change',
-    'Managing talent costs',
-    'Improving sales results',
-    'Scaling recruitment',
-    'Identifying and developing leaders',
-    'Leveraging talent data',
-    'My next career move',
+    t('businessChallenges.challenge1'),
+    t('businessChallenges.challenge2'),
+    t('businessChallenges.challenge3'),
+    t('businessChallenges.challenge4'),
+    t('businessChallenges.challenge5'),
+    t('businessChallenges.challenge6'),
+    t('businessChallenges.challenge7'),
   ];
 
   return (
@@ -24,9 +26,9 @@ export default function BusinessChallenges() {
           viewport={{ once: true }}
         >
           <h2 className="text-[#0088ff] text-2xl md:text-4xl font-semibold italic mb-12">
-            What business challenge are you
+            {t('businessChallenges.title')}
             <br />
-            looking to solve?
+            {t('businessChallenges.title2')}
           </h2>
         </motion.div>
 
@@ -63,7 +65,7 @@ export default function BusinessChallenges() {
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
               className="w-full bg-[#0d1117] border border-white/20 rounded-lg py-4 px-5 pr-14 text-white/70 text-sm focus:outline-none focus:border-[#0088ff] transition-colors"
-              aria-label="Search for business challenges and solutions"
+              aria-label={t('businessChallenges.searchLabel')}
             />
             <button className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-[#0066ff] hover:bg-[#0077ff] rounded-lg flex items-center justify-center transition-colors" aria-label="Search">
               <Search className="w-5 h-5 text-white" aria-hidden="true" />

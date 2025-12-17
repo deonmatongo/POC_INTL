@@ -1,67 +1,70 @@
 import React from 'react';
 import { Linkedin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { useLanguage } from '@/components/LanguageContext';
 
 export default function Footer() {
+  const { t } = useLanguage();
+  
   const footerLinks = {
-    Capabilities: [
-      'Business Transformation',
-      'Organization Strategy',
-      'Total Rewards',
-      'Assessment & Succession',
-      'Talent Acquisition',
-      'Leadership & Professional Development',
+    [t('footer.capabilities')]: [
+      t('footer.capability1'),
+      t('footer.capability2'),
+      t('footer.capability3'),
+      t('footer.capability4'),
+      t('footer.capability5'),
+      t('footer.capability6'),
     ],
-    Products: [
-      'Talent Suite Overview',
-      'POC Architect',
-      'POC Assess',
-      'POC Listen',
-      'POC Pay',
-      'POC Sell',
+    [t('footer.products')]: [
+      t('footer.product1'),
+      t('footer.product2'),
+      t('footer.product3'),
+      t('footer.product4'),
+      t('footer.product5'),
+      t('footer.product6'),
     ],
-    Industries: [
-      'Consumer Markets',
-      'Financial Services',
-      'Healthcare',
-      'Life Sciences',
-      'Industrial',
-      'Technology',
-      'Government & Public Services',
+    [t('footer.industries')]: [
+      t('footer.industry1'),
+      t('footer.industry2'),
+      t('footer.industry3'),
+      t('footer.industry4'),
+      t('footer.industry5'),
+      t('footer.industry6'),
+      t('footer.industry7'),
     ],
-    Functions: [
-      'Board & CEO Services',
-      'Accounting',
-      'Corporate Affairs',
-      'Cybersecurity',
-      'Financial Services',
-      'Human Resources',
-      'Information Technology',
-      'Legal',
-      'Marketing',
-      'Risk Management',
-      'Sales',
-      'Supply Chain',
-      'Sustainability',
+    [t('footer.functions')]: [
+      t('footer.function1'),
+      t('footer.function2'),
+      t('footer.function3'),
+      t('footer.function4'),
+      t('footer.function5'),
+      t('footer.function6'),
+      t('footer.function7'),
+      t('footer.function8'),
+      t('footer.function9'),
+      t('footer.function10'),
+      t('footer.function11'),
+      t('footer.function12'),
+      t('footer.function13'),
     ],
-    Careers: [
-      'Jobs with our clients',
-      'Advance your career',
-      'Join POC',
+    [t('footer.careers')]: [
+      t('footer.career1'),
+      t('footer.career2'),
+      t('footer.career3'),
     ],
-    About: [
-      'Our Story',
-      'Find a Consultant',
-      'Find an Office',
-      'Business Impact',
-      'Corporate Responsibility',
-      'Investor Relations',
-      'Newsroom',
+    [t('footer.about')]: [
+      t('footer.about1'),
+      t('footer.about2'),
+      t('footer.about3'),
+      t('footer.about4'),
+      t('footer.about5'),
+      t('footer.about6'),
+      t('footer.about7'),
     ],
   };
 
   const bottomLinks = [
-    'Contact', 'Store', 'Subscribe', 'Terms', 'Privacy', 
-    'Cookies', 'Cookie Settings', 'Do Not Sell My Info', 'Accessibility'
+    t('footer.contact'), t('footer.store'), t('footer.subscribe'), t('footer.terms'), t('footer.privacy'), 
+    t('footer.cookies'), t('footer.cookieSettings'), t('footer.doNotSell'), t('footer.accessibility')
   ];
 
   const socialIcons = [
@@ -124,7 +127,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8">
           {/* Bottom Links */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/50 text-sm">© 2025 POC. All rights reserved.</p>
+            <p className="text-white/50 text-sm">{t('footer.copyright')}</p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               {bottomLinks.map((link) => (
                 <a

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useLanguage } from '@/components/LanguageContext';
 
 const CircularProgress = ({ percentage, delay }) => {
   const [currentPercentage, setCurrentPercentage] = useState(0);
@@ -68,18 +69,20 @@ const CircularProgress = ({ percentage, delay }) => {
 };
 
 export default function StatsSection() {
+  const { t } = useLanguage();
+  
   const stats = [
     {
       percentage: 96,
-      description: "We work with 96% of Fortune's top 50 world's most admired companies",
+      description: t('stats.stat1'),
     },
     {
       percentage: 75,
-      description: "3 in every 4 of Fortune's best companies to work for are POC clients",
+      description: t('stats.stat2'),
     },
     {
       percentage: 80,
-      description: "We work with 80% of the Drucker Institute's top performing companies",
+      description: t('stats.stat3'),
     },
   ];
 
@@ -102,14 +105,14 @@ export default function StatsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-white text-3xl md:text-5xl font-light italic mb-4">
-            We help businesses and the
+            {t('stats.title1')}
             <br />
-            people in them <span className="underline decoration-[#00b4d8] underline-offset-4">thrive</span>.
+            {t('stats.title2')} <span className="underline decoration-[#00b4d8] underline-offset-4">{t('stats.title3')}</span>.
           </h2>
           <p className="text-white/60 text-base md:text-lg font-light mt-6 max-w-2xl mx-auto">
-            Across the globe, the companies we partner with are driving
+            {t('stats.description1')}
             <br className="hidden md:block" />
-            business transformation through people.
+            {t('stats.description2')}
           </p>
         </motion.div>
 
@@ -141,7 +144,7 @@ export default function StatsSection() {
           className="text-center"
         >
           <button className="px-8 py-3 border border-[#00b4d8] text-[#00b4d8] text-sm font-medium rounded-full hover:bg-[#00b4d8] hover:text-white transition-all duration-300">
-            Explore our business impact
+            {t('stats.cta')}
           </button>
         </motion.div>
       </div>
