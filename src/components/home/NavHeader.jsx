@@ -64,7 +64,7 @@ export default function NavHeader() {
   ];
 
   const solutionsMenu = [
-    { title: t('solutions.organizationalTransformation'), page: 'OrganizationalTransformation', items: [{ title: t('solutions.employeeEngagement'), page: 'EmployeeEngagement' }] },
+    { title: t('solutions.organizationalTransformation'), page: 'OrganizationalTransformation', items: [{ title: t('solutions.employeeEngagement'), page: 'EmployeeEngagement' }, { title: t('solutions.employeeVerification'), page: 'EmployeeVerification' }] },
     { title: t('solutions.performanceOptimization'), page: 'PerformanceOptimization', items: [{ title: t('solutions.leadershipDevelopment'), page: 'LeadershipDevelopment' }] },
     { title: t('solutions.customerExperience'), page: 'CustomerExperience', items: [{ title: t('solutions.dataManagementInsights'), page: 'DataDrivenInsights' }] },
   ];

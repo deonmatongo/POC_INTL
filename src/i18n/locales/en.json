@@ -19,6 +19,7 @@
   "solutions": {
     "organizationalTransformation": "Organizational Transformation",
     "employeeEngagement": "Employee Engagement",
+    "employeeVerification": "Employee Verification",
     "performanceOptimization": "Performance Optimization",
     "leadershipDevelopment": "Leadership & Professional Development",
     "customerExperience": "Customer Experience",
@@ -204,6 +205,14 @@
       "metaDescription": "Drive productivity, retention, and profitability through employee engagement. POC International helps you create a motivated, connected workforce committed to achieving business goals.",
       "heroTitle": "Employee Engagement",
       "content1": "Leaders who tune into their team's perspectives inspire stronger performance and trust. Employee engagement drives productivity, retention, customer satisfaction, and profitability. Organizations that invest in employee engagement create a workforce that is motivated, connected, and committed to achieving business goals. POC International will help you establish engagement routines that work for your business and your culture."
+    },
+    "employeeVerification": {
+      "title": "Employee Verification Services | POC International",
+      "metaDescription": "Comprehensive employee verification and background screening services. POC International helps you verify credentials, conduct background checks, and ensure workforce integrity through trusted verification processes.",
+      "heroTitle": "Employee Verification",
+      "content1": "In today's competitive business environment, ensuring the integrity and qualifications of your workforce is paramount. Employee verification services provide organizations with the confidence and security needed to make informed hiring decisions and maintain a trustworthy team.",
+      "content2": "POC International offers comprehensive employee verification solutions that include credential verification, background screening, employment history checks, and reference validation. Our thorough processes help protect your organization from potential risks while ensuring compliance with industry standards and regulations.",
+      "content3": "By partnering with POC International for employee verification, you gain access to streamlined processes, faster turnaround times, and detailed reporting that supports your hiring decisions. We help you build a workforce you can trust, reducing liability and enhancing organizational security."
     },
     "performanceOptimization": {
       "title": "Performance Optimization Consulting | POC International",

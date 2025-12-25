@@ -19,6 +19,7 @@
   "solutions": {
     "organizationalTransformation": "Transformation Organisationnelle",
     "employeeEngagement": "Engagement des Employés",
+    "employeeVerification": "Vérification des Employés",
     "performanceOptimization": "Optimisation de la Performance",
     "leadershipDevelopment": "Leadership & Développement Professionnel",
     "customerExperience": "Expérience Client",
@@ -204,6 +205,14 @@
       "metaDescription": "Stimulez la productivité, la rétention et la rentabilité grâce à l'engagement des employés. POC International vous aide à créer une main-d'œuvre motivée et connectée, engagée à atteindre les objectifs commerciaux.",
       "heroTitle": "Engagement des Employés",
       "content1": "Les leaders qui écoutent les perspectives de leur équipe inspirent une performance et une confiance plus fortes. L'engagement des employés stimule la productivité, la rétention, la satisfaction client et la rentabilité. Les organisations qui investissent dans l'engagement des employés créent une main-d'œuvre motivée, connectée et engagée à atteindre les objectifs commerciaux. POC International vous aidera à établir des routines d'engagement qui fonctionnent pour votre entreprise et votre culture."
+    },
+    "employeeVerification": {
+      "title": "Services de Vérification des Employés | POC International",
+      "metaDescription": "Services complets de vérification des employés et de vérification des antécédents. POC International vous aide à vérifier les qualifications, effectuer des vérifications d'antécédents et assurer l'intégrité de la main-d'œuvre grâce à des processus de vérification fiables.",
+      "heroTitle": "Vérification des Employés",
+      "content1": "Dans l'environnement commercial concurrentiel d'aujourd'hui, assurer l'intégrité et les qualifications de votre main-d'œuvre est primordial. Les services de vérification des employés offrent aux organisations la confiance et la sécurité nécessaires pour prendre des décisions d'embauche éclairées et maintenir une équipe digne de confiance.",
+      "content2": "POC International offre des solutions complètes de vérification des employés qui incluent la vérification des qualifications, la vérification des antécédents, les vérifications de l'historique d'emploi et la validation des références. Nos processus approfondis aident à protéger votre organisation contre les risques potentiels tout en assurant la conformité aux normes et réglementations de l'industrie.",
+      "content3": "En vous associant à POC International pour la vérification des employés, vous bénéficiez de processus rationalisés, de délais d'exécution plus rapides et de rapports détaillés qui soutiennent vos décisions d'embauche. Nous vous aidons à construire une main-d'œuvre en qui vous pouvez avoir confiance, réduisant la responsabilité et améliorant la sécurité organisationnelle."
     },
     "performanceOptimization": {
       "title": "Conseil en Optimisation de la Performance | POC International",

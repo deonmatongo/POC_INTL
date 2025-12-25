@@ -6,6 +6,8 @@ import OrganizationalTransformation from "./OrganizationalTransformation";
 
 import EmployeeEngagement from "./EmployeeEngagement";
 
+import EmployeeVerification from "./EmployeeVerification";
+
 import PerformanceOptimization from "./PerformanceOptimization";
 
 import LeadershipDevelopment from "./LeadershipDevelopment";
@@ -27,6 +29,8 @@ const PAGES = {
     OrganizationalTransformation: OrganizationalTransformation,
     
     EmployeeEngagement: EmployeeEngagement,
+    
+    EmployeeVerification: EmployeeVerification,
     
     PerformanceOptimization: PerformanceOptimization,
     
@@ -72,6 +76,8 @@ function PagesContent() {
                 <Route path="/OrganizationalTransformation" element={<OrganizationalTransformation />} />
                 
                 <Route path="/EmployeeEngagement" element={<EmployeeEngagement />} />
+                
+                <Route path="/EmployeeVerification" element={<EmployeeVerification />} />
                 
                 <Route path="/PerformanceOptimization" element={<PerformanceOptimization />} />
                 
