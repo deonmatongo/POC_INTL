@@ -1,9 +1,39 @@
 import React from 'react';
 import { Linkedin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/components/LanguageContext';
 
 export default function Footer() {
   const { t } = useLanguage();
+  const navigate = useNavigate();
+  
+  const getLinkPath = (linkText) => {
+    const linkMap = {
+      [t('footer.about1')]: '/OurStory',
+      [t('footer.about2')]: '/FindAConsultant',
+      [t('footer.about3')]: '/FindAnOffice',
+      [t('footer.capability1')]: '/BusinessTransformation',
+      [t('footer.capability5')]: '/TalentAcquisition',
+      [t('footer.capability6')]: '/LeadershipDevelopment',
+      [t('footer.terms')]: '/TermsOfService',
+      [t('footer.privacy')]: '/PrivacyPolicy',
+      [t('footer.cookies')]: '/CookiePolicy',
+      [t('footer.contact')]: '/Home#contact-form',
+    };
+    return linkMap[linkText] || '#';
+  };
+  
+  const handleLinkClick = (e, linkText) => {
+    const path = getLinkPath(linkText);
+    if (path !== '#') {
+      e.preventDefault();
+      if (path.includes('#')) {
+        navigate(path);
+      } else {
+        navigate(path);
+      }
+    }
+  };
   
   const footerLinks = {
     [t('footer.capabilities')]: [
@@ -45,11 +75,6 @@ export default function Footer() {
       t('footer.function11'),
       t('footer.function12'),
       t('footer.function13'),
-    ],
-    [t('footer.careers')]: [
-      t('footer.career1'),
-      t('footer.career2'),
-      t('footer.career3'),
     ],
     [t('footer.about')]: [
       t('footer.about1'),
@@ -103,21 +128,34 @@ export default function Footer() {
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-16">
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
               <h3 className="text-[#0088ff] font-semibold text-sm mb-4">{category}</h3>
               <ul className="space-y-2">
-                {links.map((link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
-                      className="text-white/60 text-sm hover:text-white transition-colors"
-                    >
-                      {link}
-                    </a>
-                  </li>
-                ))}
+                {links.map((link) => {
+                  const path = getLinkPath(link);
+                  return (
+                    <li key={link}>
+                      {path !== '#' ? (
+                        <Link
+                          to={path}
+                          onClick={(e) => handleLinkClick(e, link)}
+                          className="text-white/60 text-sm hover:text-white transition-colors"
+                        >
+                          {link}
+                        </Link>
+                      ) : (
+                        <a
+                          href="#"
+                          className="text-white/60 text-sm hover:text-white transition-colors"
+                        >
+                          {link}
+                        </a>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}
@@ -129,15 +167,27 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/50 text-sm">{t('footer.copyright')}</p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-              {bottomLinks.map((link) => (
-                <a
-                  key={link}
-                  href="#"
-                  className="text-white/50 text-sm hover:text-white transition-colors"
-                >
-                  {link}
-                </a>
-              ))}
+              {bottomLinks.map((link) => {
+                const path = getLinkPath(link);
+                return path !== '#' ? (
+                  <Link
+                    key={link}
+                    to={path}
+                    onClick={(e) => handleLinkClick(e, link)}
+                    className="text-white/50 text-sm hover:text-white transition-colors"
+                  >
+                    {link}
+                  </Link>
+                ) : (
+                  <a
+                    key={link}
+                    href="#"
+                    className="text-white/50 text-sm hover:text-white transition-colors"
+                  >
+                    {link}
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>

@@ -25,6 +25,16 @@ import PrivacyPolicy from "./PrivacyPolicy";
 
 import CookiePolicy from "./CookiePolicy";
 
+import TermsOfService from "./TermsOfService";
+
+import FindAConsultant from "./FindAConsultant";
+
+import FindAnOffice from "./FindAnOffice";
+
+import BusinessTransformation from "./BusinessTransformation";
+
+import TalentAcquisition from "./TalentAcquisition";
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 const PAGES = {
@@ -52,6 +62,16 @@ const PAGES = {
     PrivacyPolicy: PrivacyPolicy,
     
     CookiePolicy: CookiePolicy,
+    
+    TermsOfService: TermsOfService,
+    
+    FindAConsultant: FindAConsultant,
+    
+    FindAnOffice: FindAnOffice,
+    
+    BusinessTransformation: BusinessTransformation,
+    
+    TalentAcquisition: TalentAcquisition,
     
 }
 
@@ -103,6 +123,16 @@ function PagesContent() {
                 <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
                 
                 <Route path="/CookiePolicy" element={<CookiePolicy />} />
+                
+                <Route path="/TermsOfService" element={<TermsOfService />} />
+                
+                <Route path="/FindAConsultant" element={<FindAConsultant />} />
+                
+                <Route path="/FindAnOffice" element={<FindAnOffice />} />
+                
+                <Route path="/BusinessTransformation" element={<BusinessTransformation />} />
+                
+                <Route path="/TalentAcquisition" element={<TalentAcquisition />} />
                 
             </Routes>
             <CookieConsent />
