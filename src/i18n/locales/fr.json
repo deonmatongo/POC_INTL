@@ -809,6 +809,10 @@
       "contactTitle": "Des Questions?",
       "contactContent": "Si vous avez des questions sur vos droits de confidentialité ou cette demande, veuillez nous contacter:",
       "contactLink": "Formulaire de Contact",
+      "right1": "Refuser la vente d'informations personnelles",
+      "right2": "Accéder à vos données personnelles",
+      "right3": "Demander la suppression de vos données",
+      "right4": "Non-discrimination pour exercer vos droits",
       "successTitle": "Demande Soumise avec Succès",
       "successMessage": "Votre demande a été reçue. Nous la traiterons conformément aux lois de confidentialité applicables et vous contacterons si nous avons besoin d'informations supplémentaires."
     }

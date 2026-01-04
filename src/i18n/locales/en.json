@@ -809,6 +809,10 @@
       "contactTitle": "Questions?",
       "contactContent": "If you have questions about your privacy rights or this request, please contact us:",
       "contactLink": "Contact Form",
+      "right1": "Opt-out of the sale of personal information",
+      "right2": "Access your personal data",
+      "right3": "Request deletion of your data",
+      "right4": "Non-discrimination for exercising your rights",
       "successTitle": "Request Submitted Successfully",
       "successMessage": "Your request has been received. We will process it in accordance with applicable privacy laws and will contact you if we need any additional information."
     }
