@@ -14,11 +14,8 @@ export default function CookieConsent() {
     // Check if user has already made a choice
     const cookieConsent = localStorage.getItem('cookieConsent');
     if (!cookieConsent) {
-      // Show consent popup after a short delay
-      const timer = setTimeout(() => {
-        setShowConsent(true);
-      }, 1000);
-      return () => clearTimeout(timer);
+      // Show consent popup immediately
+      setShowConsent(true);
     }
   }, []);
 
