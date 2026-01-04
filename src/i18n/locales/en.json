@@ -192,6 +192,14 @@
   "common": {
     "and": "And"
   },
+  "cookies": {
+    "title": "We Value Your Privacy",
+    "description": "We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. By clicking 'Accept', you consent to our use of cookies.",
+    "accept": "Accept All Cookies",
+    "decline": "Decline",
+    "learnMore": "Learn More",
+    "privacyPolicy": "Privacy Policy"
+  },
   "pages": {
     "organizationalTransformation": {
       "title": "Organizational Transformation Services | POC International",
