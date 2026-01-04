@@ -753,6 +753,64 @@
       "privacyNote": "By subscribing, you agree to our Privacy Policy. You can unsubscribe at any time.",
       "successTitle": "Thank You for Subscribing!",
       "successMessage": "You have successfully subscribed to our newsletter. You will receive our latest updates and insights."
+    },
+    "leadThroughChange": {
+      "title": "Lead Through Change | POC International",
+      "metaDescription": "Unleash potential in your teams and organization. POC International helps leaders navigate change and drive transformation.",
+      "heroTitle": "Lead Through Change",
+      "content1": "Unleashing potential in your teams and organization starts with you. Leadership is the catalyst for transformation, and effective leaders are those who can guide their organizations through periods of change with clarity, vision, and purpose.",
+      "content2": "At POC International, we understand that leading through change requires more than just strategic planning—it demands emotional intelligence, communication skills, and the ability to inspire and engage teams during times of uncertainty.",
+      "servicesTitle": "Our Leadership Through Change Services",
+      "service1": "Change leadership development and coaching",
+      "service2": "Communication strategy and stakeholder engagement",
+      "service3": "Organizational change management",
+      "service4": "Culture transformation and alignment",
+      "content3": "We partner with leaders to develop the capabilities needed to navigate complex transformations, build resilient teams, and create sustainable change that drives organizational success."
+    },
+    "transformForGrowth": {
+      "title": "Transform for Growth | POC International",
+      "metaDescription": "Transform your organization for sustainable growth. POC International helps build supporting structures, skillsets, and culture to unleash potential.",
+      "heroTitle": "Transform for Growth",
+      "content1": "Potential can't be unleashed without the supporting structures, skillsets, and culture. Transformation for growth requires a holistic approach that aligns organizational design, capabilities, and culture with strategic objectives.",
+      "content2": "POC International helps organizations build the foundation needed for sustainable growth through comprehensive transformation programs that address structure, talent, processes, and culture simultaneously.",
+      "servicesTitle": "Our Transformation for Growth Services",
+      "service1": "Organizational design and structure optimization",
+      "service2": "Capability development and skillset enhancement",
+      "service3": "Culture transformation and alignment",
+      "service4": "Strategic execution and change management",
+      "content3": "Our transformation approach ensures that all elements of your organization work together to unlock potential, drive performance, and achieve sustainable growth."
+    },
+    "findKeepTopTalent": {
+      "title": "Find and Keep Top Talent | POC International",
+      "metaDescription": "Find and retain top talent with POC International. We help you hire people with high potential and ensure they're engaged to maximize their impact.",
+      "heroTitle": "Find and Keep Top Talent",
+      "content1": "You can hire people with high potential but unless they're engaged, you won't be able to maximize it. Finding and keeping top talent requires a comprehensive approach that spans recruitment, onboarding, development, and retention.",
+      "content2": "POC International helps organizations build talent strategies that not only attract exceptional candidates but also create environments where top performers want to stay and thrive.",
+      "servicesTitle": "Our Talent Acquisition & Retention Services",
+      "service1": "Strategic talent acquisition and recruitment",
+      "service2": "Employer branding and talent attraction",
+      "service3": "Employee engagement and retention strategies",
+      "service4": "Talent development and career progression",
+      "content3": "We help you find the right people and create the conditions for them to succeed, ensuring that your investment in talent delivers maximum value and impact."
+    },
+    "doNotSellMyInfo": {
+      "title": "Do Not Sell My Personal Information | POC International",
+      "metaDescription": "Request that POC International does not sell your personal information. Exercise your privacy rights and control how your data is used.",
+      "heroTitle": "Do Not Sell My Information",
+      "heroSubtitle": "Exercise your privacy rights and control your data",
+      "overviewTitle": "Your Privacy Rights",
+      "overviewContent1": "At POC International, we respect your privacy rights and are committed to protecting your personal information. Depending on your location, you may have the right to opt-out of the sale of your personal information.",
+      "overviewContent2": "We do not sell your personal information in the traditional sense. However, if you would like to ensure that your information is not shared in ways that could be considered a 'sale' under applicable privacy laws, you can submit a request using the form below.",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "submitButton": "Submit Request",
+      "rightsTitle": "Your Rights",
+      "rightsContent": "Depending on your location, you may have various rights regarding your personal information, including the right to opt-out of the sale of personal information, the right to access your data, the right to delete your data, and the right to non-discrimination for exercising your privacy rights.",
+      "contactTitle": "Questions?",
+      "contactContent": "If you have questions about your privacy rights or this request, please contact us:",
+      "contactLink": "Contact Form",
+      "successTitle": "Request Submitted Successfully",
+      "successMessage": "Your request has been received. We will process it in accordance with applicable privacy laws and will contact you if we need any additional information."
     }
   }
 }

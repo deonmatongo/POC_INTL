@@ -33,6 +33,7 @@ export default function Footer() {
       [t('footer.cookies')]: '/CookiePolicy',
       [t('footer.cookieSettings')]: '/CookieSettings',
       [t('footer.subscribe')]: '/Subscribe',
+      [t('footer.doNotSell')]: '/DoNotSellMyInfo',
       [t('footer.accessibility')]: '/Accessibility',
       [t('footer.contact')]: '/Home#contact-form',
     };
@@ -89,7 +90,7 @@ export default function Footer() {
   };
 
   const bottomLinks = [
-    t('footer.contact'), t('footer.store'), t('footer.subscribe'), t('footer.terms'), t('footer.privacy'), 
+    t('footer.contact'), t('footer.subscribe'), t('footer.terms'), t('footer.privacy'), 
     t('footer.cookies'), t('footer.cookieSettings'), t('footer.doNotSell'), t('footer.accessibility')
   ];
 

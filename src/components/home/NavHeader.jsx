@@ -58,9 +58,9 @@ export default function NavHeader() {
   ];
   
   const expertiseMenu = [
-    { title: t('expertise.leadThroughChange'), description: t('expertise.leadThroughChangeDesc') },
-    { title: t('expertise.transformForGrowth'), description: t('expertise.transformForGrowthDesc') },
-    { title: t('expertise.findKeepTopTalent'), description: t('expertise.findKeepTopTalentDesc') },
+    { title: t('expertise.leadThroughChange'), description: t('expertise.leadThroughChangeDesc'), page: 'LeadThroughChange' },
+    { title: t('expertise.transformForGrowth'), description: t('expertise.transformForGrowthDesc'), page: 'TransformForGrowth' },
+    { title: t('expertise.findKeepTopTalent'), description: t('expertise.findKeepTopTalentDesc'), page: 'FindKeepTopTalent' },
   ];
 
   const solutionsMenu = [
@@ -137,14 +137,14 @@ export default function NavHeader() {
                           <h3 className="text-[#0066ff] text-lg font-semibold mb-6">{t('expertise.weHelpYou')}</h3>
                           <div className="space-y-6">
                             {expertiseMenu.map((item, index) => (
-                              <div key={index} className="space-y-2">
-                                <h4 className="text-[#0066ff] hover:text-[#0088ff] text-base font-semibold cursor-pointer transition-colors">
+                              <Link key={index} to={createPageUrl(item.page)} onClick={() => setExpertiseOpen(false)} className="block space-y-2 group">
+                                <h4 className="text-[#0066ff] group-hover:text-[#0088ff] text-base font-semibold cursor-pointer transition-colors">
                                   {item.title}
                                 </h4>
                                 <p className="text-gray-700 text-sm leading-relaxed">
                                   {item.description}
                                 </p>
-                              </div>
+                              </Link>
                             ))}
                           </div>
                         </div>
@@ -312,10 +312,10 @@ export default function NavHeader() {
                     >
                       <p className="text-[#0088ff] text-sm font-semibold mb-2">{t('expertise.weHelpYou')}</p>
                       {expertiseMenu.map((item, index) => (
-                        <div key={index} className="space-y-1">
-                          <p className="text-white/90 text-sm font-semibold">{item.title}</p>
+                        <Link key={index} to={createPageUrl(item.page)} onClick={() => setMobileExpertiseOpen(false)} className="block space-y-1">
+                          <p className="text-white/90 hover:text-white text-sm font-semibold transition-colors">{item.title}</p>
                           <p className="text-white/60 text-xs leading-relaxed">{item.description}</p>
-                        </div>
+                        </Link>
                       ))}
                     </motion.div>
                   )}

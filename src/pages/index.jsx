@@ -68,6 +68,14 @@ import Accessibility from "./Accessibility";
 
 import Subscribe from "./Subscribe";
 
+import LeadThroughChange from "./LeadThroughChange";
+
+import TransformForGrowth from "./TransformForGrowth";
+
+import FindKeepTopTalent from "./FindKeepTopTalent";
+
+import DoNotSellMyInfo from "./DoNotSellMyInfo";
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 const PAGES = {
@@ -137,6 +145,14 @@ const PAGES = {
     Accessibility: Accessibility,
     
     Subscribe: Subscribe,
+    
+    LeadThroughChange: LeadThroughChange,
+    
+    TransformForGrowth: TransformForGrowth,
+    
+    FindKeepTopTalent: FindKeepTopTalent,
+    
+    DoNotSellMyInfo: DoNotSellMyInfo,
     
 }
 
@@ -231,6 +247,14 @@ function PagesContent() {
                 <Route path="/Accessibility" element={<Accessibility />} />
                 
                 <Route path="/Subscribe" element={<Subscribe />} />
+                
+                <Route path="/LeadThroughChange" element={<LeadThroughChange />} />
+                
+                <Route path="/TransformForGrowth" element={<TransformForGrowth />} />
+                
+                <Route path="/FindKeepTopTalent" element={<FindKeepTopTalent />} />
+                
+                <Route path="/DoNotSellMyInfo" element={<DoNotSellMyInfo />} />
                 
             </Routes>
             <CookieConsent />

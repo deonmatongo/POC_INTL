@@ -753,6 +753,64 @@
       "privacyNote": "En vous abonnant, vous acceptez notre Politique de Confidentialité. Vous pouvez vous désabonner à tout moment.",
       "successTitle": "Merci de Vous Être Abonné!",
       "successMessage": "Vous vous êtes abonné avec succès à notre newsletter. Vous recevrez nos dernières mises à jour et perspectives."
+    },
+    "leadThroughChange": {
+      "title": "Diriger à Travers le Changement | POC International",
+      "metaDescription": "Libérez le potentiel dans vos équipes et votre organisation. POC International aide les leaders à naviguer dans le changement et à stimuler la transformation.",
+      "heroTitle": "Diriger à Travers le Changement",
+      "content1": "Libérer le potentiel dans vos équipes et votre organisation commence par vous. Le leadership est le catalyseur de la transformation, et les leaders efficaces sont ceux qui peuvent guider leurs organisations à travers les périodes de changement avec clarté, vision et objectif.",
+      "content2": "Chez POC International, nous comprenons que diriger à travers le changement nécessite plus qu'une simple planification stratégique—cela exige une intelligence émotionnelle, des compétences en communication et la capacité d'inspirer et d'engager les équipes pendant les périodes d'incertitude.",
+      "servicesTitle": "Nos Services de Leadership à Travers le Changement",
+      "service1": "Développement du leadership et coaching du changement",
+      "service2": "Stratégie de communication et engagement des parties prenantes",
+      "service3": "Gestion du changement organisationnel",
+      "service4": "Transformation culturelle et alignement",
+      "content3": "Nous nous associons aux leaders pour développer les capacités nécessaires pour naviguer dans des transformations complexes, construire des équipes résilientes et créer un changement durable qui stimule le succès organisationnel."
+    },
+    "transformForGrowth": {
+      "title": "Transformer pour la Croissance | POC International",
+      "metaDescription": "Transformez votre organisation pour une croissance durable. POC International aide à construire des structures de soutien, des compétences et une culture pour libérer le potentiel.",
+      "heroTitle": "Transformer pour la Croissance",
+      "content1": "Le potentiel ne peut pas être libéré sans les structures de soutien, les compétences et la culture. La transformation pour la croissance nécessite une approche holistique qui aligne la conception organisationnelle, les capacités et la culture avec les objectifs stratégiques.",
+      "content2": "POC International aide les organisations à construire la fondation nécessaire pour une croissance durable grâce à des programmes de transformation complets qui abordent simultanément la structure, les talents, les processus et la culture.",
+      "servicesTitle": "Nos Services de Transformation pour la Croissance",
+      "service1": "Conception organisationnelle et optimisation de structure",
+      "service2": "Développement des capacités et amélioration des compétences",
+      "service3": "Transformation culturelle et alignement",
+      "service4": "Exécution stratégique et gestion du changement",
+      "content3": "Notre approche de transformation garantit que tous les éléments de votre organisation travaillent ensemble pour libérer le potentiel, stimuler la performance et atteindre une croissance durable."
+    },
+    "findKeepTopTalent": {
+      "title": "Trouver et Garder les Meilleurs Talents | POC International",
+      "metaDescription": "Trouvez et retenez les meilleurs talents avec POC International. Nous vous aidons à embaucher des personnes à haut potentiel et à garantir qu'elles sont engagées pour maximiser leur impact.",
+      "heroTitle": "Trouver et Garder les Meilleurs Talents",
+      "content1": "Vous pouvez embaucher des personnes à haut potentiel mais à moins qu'elles ne soient engagées, vous ne pourrez pas le maximiser. Trouver et garder les meilleurs talents nécessite une approche complète qui couvre le recrutement, l'intégration, le développement et la rétention.",
+      "content2": "POC International aide les organisations à construire des stratégies de talents qui non seulement attirent des candidats exceptionnels mais créent également des environnements où les meilleurs performeurs veulent rester et prospérer.",
+      "servicesTitle": "Nos Services d'Acquisition & Rétention de Talents",
+      "service1": "Acquisition stratégique de talents et recrutement",
+      "service2": "Marque employeur et attraction de talents",
+      "service3": "Stratégies d'engagement et de rétention des employés",
+      "service4": "Développement des talents et progression de carrière",
+      "content3": "Nous vous aidons à trouver les bonnes personnes et à créer les conditions pour qu'elles réussissent, garantissant que votre investissement dans les talents fournit une valeur et un impact maximums."
+    },
+    "doNotSellMyInfo": {
+      "title": "Ne Pas Vendre Mes Informations Personnelles | POC International",
+      "metaDescription": "Demandez que POC International ne vende pas vos informations personnelles. Exercez vos droits de confidentialité et contrôlez comment vos données sont utilisées.",
+      "heroTitle": "Ne Pas Vendre Mes Informations",
+      "heroSubtitle": "Exercez vos droits de confidentialité et contrôlez vos données",
+      "overviewTitle": "Vos Droits de Confidentialité",
+      "overviewContent1": "Chez POC International, nous respectons vos droits de confidentialité et nous nous engageons à protéger vos informations personnelles. Selon votre localisation, vous pouvez avoir le droit de refuser la vente de vos informations personnelles.",
+      "overviewContent2": "Nous ne vendons pas vos informations personnelles au sens traditionnel. Cependant, si vous souhaitez garantir que vos informations ne sont pas partagées de manières qui pourraient être considérées comme une 'vente' selon les lois de confidentialité applicables, vous pouvez soumettre une demande en utilisant le formulaire ci-dessous.",
+      "emailLabel": "Adresse E-mail",
+      "emailPlaceholder": "Entrez votre adresse e-mail",
+      "submitButton": "Soumettre la Demande",
+      "rightsTitle": "Vos Droits",
+      "rightsContent": "Selon votre localisation, vous pouvez avoir divers droits concernant vos informations personnelles, y compris le droit de refuser la vente d'informations personnelles, le droit d'accéder à vos données, le droit de supprimer vos données et le droit à la non-discrimination pour exercer vos droits de confidentialité.",
+      "contactTitle": "Des Questions?",
+      "contactContent": "Si vous avez des questions sur vos droits de confidentialité ou cette demande, veuillez nous contacter:",
+      "contactLink": "Formulaire de Contact",
+      "successTitle": "Demande Soumise avec Succès",
+      "successMessage": "Votre demande a été reçue. Nous la traiterons conformément aux lois de confidentialité applicables et vous contacterons si nous avons besoin d'informations supplémentaires."
     }
   }
 }
