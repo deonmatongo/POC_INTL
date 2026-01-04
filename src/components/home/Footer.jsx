@@ -43,10 +43,10 @@ export default function Footer() {
     const path = getLinkPath(linkText);
     if (path !== '#') {
       e.preventDefault();
-      if (path.includes('#')) {
-        navigate(path);
-      } else {
-        navigate(path);
+      navigate(path);
+      // Scroll to top after navigation (ScrollToTop component will handle this, but we can also do it here as backup)
+      if (!path.includes('#')) {
+        setTimeout(() => window.scrollTo(0, 0), 0);
       }
     }
   };
@@ -76,21 +76,6 @@ export default function Footer() {
       t('footer.industry5'),
       t('footer.industry6'),
       t('footer.industry7'),
-    ],
-    [t('footer.functions')]: [
-      t('footer.function1'),
-      t('footer.function2'),
-      t('footer.function3'),
-      t('footer.function4'),
-      t('footer.function5'),
-      t('footer.function6'),
-      t('footer.function7'),
-      t('footer.function8'),
-      t('footer.function9'),
-      t('footer.function10'),
-      t('footer.function11'),
-      t('footer.function12'),
-      t('footer.function13'),
     ],
     [t('footer.about')]: [
       t('footer.about1'),
@@ -144,7 +129,7 @@ export default function Footer() {
         </div>
 
         {/* Links Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-16">
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
               <h3 className="text-[#0088ff] font-semibold text-sm mb-4">{category}</h3>

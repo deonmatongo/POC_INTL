@@ -1,5 +1,6 @@
 import Layout from "./Layout.jsx";
 import CookieConsent from "@/components/CookieConsent";
+import ScrollToTop from "@/components/ScrollToTop";
 
 import Home from "./Home";
 
@@ -159,6 +160,7 @@ function PagesContent() {
     
     return (
         <Layout currentPageName={currentPage}>
+            <ScrollToTop />
             <Routes>            
                 
                     <Route path="/" element={<Home />} />
