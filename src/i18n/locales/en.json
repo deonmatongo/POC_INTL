@@ -461,6 +461,298 @@
       "service5": "Onboarding and talent integration support",
       "content3": "Our talent acquisition experts leverage deep market knowledge, extensive networks, and proven methodologies to connect organizations with exceptional candidates. We take a consultative approach, working closely with hiring managers to understand their needs, culture, and strategic objectives.",
       "content4": "From C-suite executives to specialized professionals, POC International helps you build teams that are not just qualified, but truly aligned with your organization's vision and values. Partner with us to transform your talent acquisition process and secure the people who will drive your organization forward."
+    },
+    "businessImpact": {
+      "title": "Business Impact | POC International",
+      "metaDescription": "See the measurable impact POC International has made for organizations worldwide. Discover our results, client success stories, and commitment to driving transformation.",
+      "heroTitle": "Business Impact",
+      "heroSubtitle": "Measurable results that drive transformation",
+      "metric1": { "value": "500+", "label": "Organizations Transformed" },
+      "metric2": { "value": "10,000+", "label": "Leaders Developed" },
+      "metric3": { "value": "95%", "label": "Client Satisfaction" },
+      "metric4": { "value": "50+", "label": "Countries Served" },
+      "overviewTitle": "Our Impact",
+      "overviewContent1": "At POC International, we measure success by the lasting impact we create for our clients. Our commitment to excellence has resulted in transformative outcomes across industries, geographies, and organizational sizes.",
+      "overviewContent2": "Every engagement is designed to deliver measurable results that drive sustainable growth, enhance organizational capabilities, and unlock the full potential of people and businesses.",
+      "resultsTitle": "Key Results",
+      "result1": {
+        "title": "Performance Improvement",
+        "content": "Organizations working with POC International have seen average performance improvements of 35% within the first year of engagement."
+      },
+      "result2": {
+        "title": "Talent Development",
+        "content": "We've helped develop over 10,000 leaders across all levels, creating a pipeline of talent that drives organizational success."
+      },
+      "result3": {
+        "title": "Transformation Success",
+        "content": "Our transformation programs have a 90% success rate, with organizations achieving their strategic objectives and building sustainable capabilities."
+      },
+      "commitmentTitle": "Our Commitment",
+      "commitmentContent": "We are committed to delivering exceptional value and measurable impact. Our approach combines deep expertise, proven methodologies, and a relentless focus on results to help organizations achieve their most ambitious goals."
+    },
+    "corporateResponsibility": {
+      "title": "Corporate Responsibility | POC International",
+      "metaDescription": "Learn about POC International's commitment to corporate responsibility, sustainability, and making a positive impact in the communities we serve.",
+      "heroTitle": "Corporate Responsibility",
+      "heroSubtitle": "Making a positive impact beyond business",
+      "overviewTitle": "Our Commitment",
+      "overviewContent1": "At POC International, we believe that business success and social responsibility go hand in hand. Our commitment to corporate responsibility extends beyond our consulting services to encompass environmental stewardship, social impact, and ethical business practices.",
+      "overviewContent2": "We are dedicated to creating value not just for our clients, but for all stakeholders—including our employees, communities, and the environment.",
+      "pillarsTitle": "Our Pillars of Responsibility",
+      "pillar1": {
+        "title": "People & Culture",
+        "content": "We foster an inclusive, diverse, and supportive workplace where every team member can thrive. Our commitment to employee well-being, professional development, and work-life balance creates an environment where excellence flourishes."
+      },
+      "pillar2": {
+        "title": "Environmental Sustainability",
+        "content": "We are committed to reducing our environmental footprint through sustainable business practices, responsible resource management, and support for environmental initiatives that create a positive impact."
+      },
+      "pillar3": {
+        "title": "Community Engagement",
+        "content": "We actively engage with communities through volunteer programs, charitable giving, and partnerships with organizations that drive positive social change and support those in need."
+      },
+      "pillar4": {
+        "title": "Ethical Business Practices",
+        "content": "We maintain the highest standards of integrity, transparency, and ethical conduct in all our business relationships and operations, ensuring trust and accountability in everything we do."
+      },
+      "commitmentTitle": "Looking Forward",
+      "commitmentContent": "Our commitment to corporate responsibility is ongoing and evolving. We continuously seek new ways to create positive impact, reduce our environmental footprint, and contribute to the well-being of communities worldwide."
+    },
+    "investorRelations": {
+      "title": "Investor Relations | POC International",
+      "metaDescription": "Investor relations information for POC International. Access financial reports, investor resources, and contact information.",
+      "heroTitle": "Investor Relations",
+      "heroSubtitle": "Transparent communication with our investors",
+      "overviewTitle": "Welcome to Investor Relations",
+      "overviewContent1": "POC International is committed to maintaining transparent and effective communication with our investors, shareholders, and the financial community. We provide timely access to financial information, corporate updates, and strategic insights.",
+      "overviewContent2": "Our investor relations team is dedicated to building strong relationships and ensuring that all stakeholders have the information they need to make informed decisions.",
+      "resourcesTitle": "Investor Resources",
+      "resource1": {
+        "title": "Annual Reports",
+        "content": "Access our comprehensive annual reports detailing financial performance, strategic initiatives, and corporate governance."
+      },
+      "resource2": {
+        "title": "Financial Performance",
+        "content": "View our latest financial results, earnings reports, and key performance indicators."
+      },
+      "resource3": {
+        "title": "Events & Presentations",
+        "content": "Stay informed about upcoming investor events, webinars, and presentations from our leadership team."
+      },
+      "resource4": {
+        "title": "Investor Contact",
+        "content": "Connect with our investor relations team for questions, requests, or to schedule a meeting."
+      },
+      "download": "Download",
+      "view": "View",
+      "contact": "Contact",
+      "contactTitle": "Contact Investor Relations",
+      "contactContent": "For investor inquiries, please contact our investor relations team:"
+    },
+    "newsroom": {
+      "title": "Newsroom | POC International",
+      "metaDescription": "Latest news, press releases, and media resources from POC International. Stay updated on company announcements and industry insights.",
+      "heroTitle": "Newsroom",
+      "heroSubtitle": "Latest news and updates from POC International",
+      "latestTitle": "Latest News",
+      "news1": {
+        "date": "December 15, 2024",
+        "title": "POC International Expands Global Presence with New Office in Singapore",
+        "excerpt": "POC International announces the opening of its new Asia-Pacific headquarters in Singapore, strengthening its ability to serve clients across the region.",
+        "category": "Company News"
+      },
+      "news2": {
+        "date": "November 20, 2024",
+        "title": "New Research: The Future of Leadership Development",
+        "excerpt": "POC International releases comprehensive research on emerging trends in leadership development and their impact on organizational success.",
+        "category": "Research"
+      },
+      "news3": {
+        "date": "October 10, 2024",
+        "title": "Major Client Success: Transformation Program Delivers 40% Performance Improvement",
+        "excerpt": "A leading technology company achieves remarkable results through POC International's organizational transformation program.",
+        "category": "Client Success"
+      },
+      "readMore": "Read More",
+      "mediaTitle": "Media Inquiries",
+      "mediaContent": "For media inquiries, press releases, or interview requests, please contact our media relations team:"
+    },
+    "organizationStrategy": {
+      "title": "Organization Strategy Services | POC International",
+      "metaDescription": "Develop winning organizational strategies with POC International. We help you align structure, culture, and capabilities to achieve your strategic objectives.",
+      "heroTitle": "Organization Strategy",
+      "content1": "Effective organizational strategy is the foundation of sustainable competitive advantage. It requires a deep understanding of your business context, clear vision for the future, and the ability to align all organizational elements—structure, processes, culture, and talent—toward common goals.",
+      "content2": "POC International partners with organizations to develop and execute strategies that drive growth, enhance competitiveness, and create lasting value. Our approach combines strategic thinking with practical execution, ensuring that your strategy becomes reality.",
+      "servicesTitle": "Our Organization Strategy Services",
+      "service1": "Strategic planning and vision development",
+      "service2": "Organizational design and structure optimization",
+      "service3": "Culture alignment and transformation",
+      "service4": "Strategic execution and change management",
+      "content3": "We work closely with leadership teams to create strategies that are not only well-conceived but also executable, ensuring that your organization can achieve its most ambitious objectives."
+    },
+    "totalRewards": {
+      "title": "Total Rewards Consulting | POC International",
+      "metaDescription": "Design comprehensive total rewards programs that attract, motivate, and retain top talent. POC International helps you create competitive compensation and benefits strategies.",
+      "heroTitle": "Total Rewards",
+      "content1": "Total rewards encompass all aspects of employee compensation and benefits—from base salary and bonuses to health benefits, retirement plans, and non-financial rewards like career development opportunities and work-life balance.",
+      "content2": "A well-designed total rewards strategy is essential for attracting top talent, motivating high performance, and retaining your best employees. POC International helps organizations develop comprehensive total rewards programs that align with business objectives and market realities.",
+      "servicesTitle": "Our Total Rewards Services",
+      "service1": "Compensation strategy and benchmarking",
+      "service2": "Benefits design and optimization",
+      "service3": "Executive compensation and equity programs",
+      "service4": "Rewards communication and employee engagement",
+      "content3": "Our total rewards experts help you create programs that are competitive, cost-effective, and aligned with your organizational culture and values."
+    },
+    "assessmentSuccession": {
+      "title": "Assessment & Succession Planning | POC International",
+      "metaDescription": "Build robust succession pipelines and assess talent effectively. POC International provides comprehensive assessment and succession planning services.",
+      "heroTitle": "Assessment & Succession",
+      "content1": "Effective talent assessment and succession planning are critical for organizational continuity and long-term success. They ensure that you have the right people in the right roles, both now and in the future, and that your organization is prepared for leadership transitions.",
+      "content2": "POC International helps organizations develop comprehensive assessment and succession planning processes that identify high-potential talent, assess readiness for key roles, and build robust pipelines for future leadership needs.",
+      "servicesTitle": "Our Assessment & Succession Services",
+      "service1": "Talent assessment and evaluation",
+      "service2": "Succession planning and pipeline development",
+      "service3": "Leadership readiness assessment",
+      "service4": "Development planning and coaching",
+      "content3": "Our assessment and succession experts use proven methodologies and tools to help you make informed decisions about talent and ensure organizational continuity."
+    },
+    "talentSuiteOverview": {
+      "title": "Talent Suite Overview | POC International",
+      "metaDescription": "Discover POC International's comprehensive Talent Suite—integrated solutions for talent management, assessment, engagement, and performance.",
+      "heroTitle": "Talent Suite Overview",
+      "content1": "The POC Talent Suite is a comprehensive set of integrated solutions designed to help organizations manage, develop, and optimize their talent across the entire employee lifecycle. From recruitment to retention, our suite provides the tools and insights needed to build high-performing teams.",
+      "content2": "Each product in the Talent Suite addresses specific talent management challenges while working seamlessly together to create a unified talent strategy that drives organizational success.",
+      "productsTitle": "Talent Suite Products",
+      "product1": "POC Architect - Organizational design and structure",
+      "product2": "POC Assess - Talent assessment and evaluation",
+      "product3": "POC Listen - Employee engagement and feedback",
+      "product4": "POC Pay - Compensation and rewards management",
+      "product5": "POC Sell - Sales performance and enablement",
+      "product6": "Integrated analytics and reporting across all products",
+      "content3": "Together, these products create a comprehensive talent management ecosystem that helps organizations attract, develop, and retain the talent needed to achieve their strategic objectives."
+    },
+    "pocArchitect": {
+      "title": "POC Architect | POC International",
+      "metaDescription": "POC Architect helps organizations design optimal organizational structures and align people, processes, and systems for maximum effectiveness.",
+      "heroTitle": "POC Architect",
+      "content1": "POC Architect is a comprehensive organizational design solution that helps organizations create structures, roles, and processes that align with strategic objectives and enable high performance.",
+      "content2": "Whether you're restructuring, expanding, or optimizing your organization, POC Architect provides the tools and expertise needed to design and implement effective organizational structures.",
+      "featuresTitle": "Key Features",
+      "feature1": "Organizational structure design and modeling",
+      "feature2": "Role definition and job architecture",
+      "feature3": "Process mapping and optimization",
+      "feature4": "Change management and implementation support",
+      "content3": "POC Architect helps you build organizations that are agile, efficient, and aligned with your strategic vision."
+    },
+    "pocAssess": {
+      "title": "POC Assess | POC International",
+      "metaDescription": "POC Assess provides comprehensive talent assessment solutions to help organizations make informed decisions about hiring, development, and succession.",
+      "heroTitle": "POC Assess",
+      "content1": "POC Assess is a powerful talent assessment platform that provides comprehensive insights into candidate and employee capabilities, potential, and fit.",
+      "content2": "Our assessment solutions help organizations make data-driven decisions about talent, from initial hiring through development and succession planning.",
+      "featuresTitle": "Key Features",
+      "feature1": "Comprehensive assessment tools and methodologies",
+      "feature2": "Behavioral and cognitive assessments",
+      "feature3": "360-degree feedback and evaluation",
+      "feature4": "Talent analytics and reporting",
+      "content3": "POC Assess empowers organizations to make informed talent decisions that drive performance and organizational success."
+    },
+    "pocListen": {
+      "title": "POC Listen | POC International",
+      "metaDescription": "POC Listen helps organizations understand and improve employee engagement through comprehensive listening strategies and feedback mechanisms.",
+      "heroTitle": "POC Listen",
+      "content1": "POC Listen is an employee engagement and feedback platform that helps organizations understand what employees think, feel, and need to perform at their best.",
+      "content2": "Through regular listening, pulse surveys, and comprehensive feedback mechanisms, POC Listen enables organizations to identify issues early, address concerns proactively, and create environments where employees thrive.",
+      "featuresTitle": "Key Features",
+      "feature1": "Employee engagement surveys and pulse checks",
+      "feature2": "Real-time feedback collection and analysis",
+      "feature3": "Action planning and intervention tools",
+      "feature4": "Benchmarking and trend analysis",
+      "content3": "POC Listen helps organizations create cultures of continuous improvement and employee engagement that drive performance and retention."
+    },
+    "pocPay": {
+      "title": "POC Pay | POC International",
+      "metaDescription": "POC Pay provides comprehensive compensation and rewards management solutions to help organizations design and manage competitive total rewards programs.",
+      "heroTitle": "POC Pay",
+      "content1": "POC Pay is a comprehensive compensation and rewards management platform that helps organizations design, implement, and manage competitive total rewards programs.",
+      "content2": "From base salary to variable pay, benefits to non-financial rewards, POC Pay provides the tools and insights needed to create compensation strategies that attract, motivate, and retain top talent.",
+      "featuresTitle": "Key Features",
+      "feature1": "Compensation benchmarking and market analysis",
+      "feature2": "Pay structure design and administration",
+      "feature3": "Performance-based compensation planning",
+      "feature4": "Total rewards communication and transparency",
+      "content3": "POC Pay helps organizations create compensation programs that are competitive, fair, and aligned with business objectives."
+    },
+    "pocSell": {
+      "title": "POC Sell | POC International",
+      "metaDescription": "POC Sell helps organizations optimize sales performance through effective sales force design, enablement, and performance management.",
+      "heroTitle": "POC Sell",
+      "content1": "POC Sell is a sales performance and enablement solution that helps organizations design effective sales organizations, enable sales teams, and optimize sales performance.",
+      "content2": "Whether you're building a new sales organization or optimizing an existing one, POC Sell provides the tools and expertise needed to create high-performing sales teams that drive revenue growth.",
+      "featuresTitle": "Key Features",
+      "feature1": "Sales organization design and structure",
+      "feature2": "Sales enablement and training programs",
+      "feature3": "Sales performance management and analytics",
+      "feature4": "Incentive design and compensation planning",
+      "content3": "POC Sell helps organizations build sales capabilities that drive consistent revenue growth and competitive advantage."
+    },
+    "cookieSettings": {
+      "title": "Cookie Settings | POC International",
+      "metaDescription": "Manage your cookie preferences and privacy settings on the POC International website.",
+      "heroTitle": "Cookie Settings",
+      "intro": "Manage your cookie preferences below. You can enable or disable different types of cookies. Essential cookies are always enabled as they are necessary for the website to function properly.",
+      "essentialLabel": "Essential Cookies",
+      "essentialDesc": "These cookies are necessary for the website to function and cannot be disabled.",
+      "analyticsLabel": "Analytics Cookies",
+      "analyticsDesc": "Help us understand how visitors interact with our website by collecting anonymous information.",
+      "functionalLabel": "Functional Cookies",
+      "functionalDesc": "Remember your preferences and provide enhanced, personalized features.",
+      "marketingLabel": "Marketing Cookies",
+      "marketingDesc": "Used to deliver advertisements and track campaign effectiveness.",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "saveButton": "Save Preferences",
+      "acceptAllButton": "Accept All Cookies",
+      "savedMessage": "Your cookie preferences have been saved."
+    },
+    "accessibility": {
+      "title": "Accessibility Statement | POC International",
+      "metaDescription": "POC International's commitment to web accessibility and ensuring our website is usable by everyone.",
+      "heroTitle": "Accessibility",
+      "commitmentTitle": "Our Commitment",
+      "commitmentContent": "POC International is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards to achieve this goal.",
+      "standardsTitle": "Accessibility Standards",
+      "standardsContent1": "We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards. Our efforts include:",
+      "standard1": "Providing alternative text for images and visual content",
+      "standard2": "Ensuring keyboard navigation and screen reader compatibility",
+      "standard3": "Maintaining sufficient color contrast for readability",
+      "standard4": "Providing clear headings and structure for content",
+      "standardsContent2": "We regularly review our website and make improvements to enhance accessibility and usability.",
+      "featuresTitle": "Accessibility Features",
+      "feature1": "Keyboard navigation support throughout the site",
+      "feature2": "Screen reader compatibility",
+      "feature3": "Alternative text for images and visual content",
+      "feature4": "Clear heading structure and semantic HTML",
+      "feature5": "Sufficient color contrast for text readability",
+      "feedbackTitle": "Feedback",
+      "feedbackContent": "We welcome feedback on the accessibility of our website. If you encounter any accessibility barriers, please contact us:",
+      "contactLink": "Contact Form"
+    },
+    "subscribe": {
+      "title": "Subscribe to Our Newsletter | POC International",
+      "metaDescription": "Subscribe to POC International's newsletter to receive the latest insights, updates, and industry news.",
+      "heroTitle": "Subscribe",
+      "heroSubtitle": "Stay informed with our latest insights and updates",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "preferencesLabel": "Subscription Preferences",
+      "preferenceNewsletter": "Newsletter - Monthly updates and company news",
+      "preferenceInsights": "Insights - Industry research and thought leadership",
+      "preferenceUpdates": "Updates - Product announcements and service updates",
+      "submitButton": "Subscribe",
+      "privacyNote": "By subscribing, you agree to our Privacy Policy. You can unsubscribe at any time.",
+      "successTitle": "Thank You for Subscribing!",
+      "successMessage": "You have successfully subscribed to our newsletter. You will receive our latest updates and insights."
     }
   }
 }

@@ -35,6 +35,38 @@ import BusinessTransformation from "./BusinessTransformation";
 
 import TalentAcquisition from "./TalentAcquisition";
 
+import BusinessImpact from "./BusinessImpact";
+
+import CorporateResponsibility from "./CorporateResponsibility";
+
+import InvestorRelations from "./InvestorRelations";
+
+import Newsroom from "./Newsroom";
+
+import OrganizationStrategy from "./OrganizationStrategy";
+
+import TotalRewards from "./TotalRewards";
+
+import AssessmentSuccession from "./AssessmentSuccession";
+
+import TalentSuiteOverview from "./TalentSuiteOverview";
+
+import POCArchitect from "./POCArchitect";
+
+import POCAssess from "./POCAssess";
+
+import POCListen from "./POCListen";
+
+import POCPay from "./POCPay";
+
+import POCSell from "./POCSell";
+
+import CookieSettings from "./CookieSettings";
+
+import Accessibility from "./Accessibility";
+
+import Subscribe from "./Subscribe";
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 const PAGES = {
@@ -72,6 +104,38 @@ const PAGES = {
     BusinessTransformation: BusinessTransformation,
     
     TalentAcquisition: TalentAcquisition,
+    
+    BusinessImpact: BusinessImpact,
+    
+    CorporateResponsibility: CorporateResponsibility,
+    
+    InvestorRelations: InvestorRelations,
+    
+    Newsroom: Newsroom,
+    
+    OrganizationStrategy: OrganizationStrategy,
+    
+    TotalRewards: TotalRewards,
+    
+    AssessmentSuccession: AssessmentSuccession,
+    
+    TalentSuiteOverview: TalentSuiteOverview,
+    
+    POCArchitect: POCArchitect,
+    
+    POCAssess: POCAssess,
+    
+    POCListen: POCListen,
+    
+    POCPay: POCPay,
+    
+    POCSell: POCSell,
+    
+    CookieSettings: CookieSettings,
+    
+    Accessibility: Accessibility,
+    
+    Subscribe: Subscribe,
     
 }
 
@@ -133,6 +197,38 @@ function PagesContent() {
                 <Route path="/BusinessTransformation" element={<BusinessTransformation />} />
                 
                 <Route path="/TalentAcquisition" element={<TalentAcquisition />} />
+                
+                <Route path="/BusinessImpact" element={<BusinessImpact />} />
+                
+                <Route path="/CorporateResponsibility" element={<CorporateResponsibility />} />
+                
+                <Route path="/InvestorRelations" element={<InvestorRelations />} />
+                
+                <Route path="/Newsroom" element={<Newsroom />} />
+                
+                <Route path="/OrganizationStrategy" element={<OrganizationStrategy />} />
+                
+                <Route path="/TotalRewards" element={<TotalRewards />} />
+                
+                <Route path="/AssessmentSuccession" element={<AssessmentSuccession />} />
+                
+                <Route path="/TalentSuiteOverview" element={<TalentSuiteOverview />} />
+                
+                <Route path="/POCArchitect" element={<POCArchitect />} />
+                
+                <Route path="/POCAssess" element={<POCAssess />} />
+                
+                <Route path="/POCListen" element={<POCListen />} />
+                
+                <Route path="/POCPay" element={<POCPay />} />
+                
+                <Route path="/POCSell" element={<POCSell />} />
+                
+                <Route path="/CookieSettings" element={<CookieSettings />} />
+                
+                <Route path="/Accessibility" element={<Accessibility />} />
+                
+                <Route path="/Subscribe" element={<Subscribe />} />
                 
             </Routes>
             <CookieConsent />

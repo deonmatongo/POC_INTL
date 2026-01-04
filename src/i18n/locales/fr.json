@@ -461,6 +461,298 @@
       "service5": "Support d'intégration et d'intégration des talents",
       "content3": "Nos experts en acquisition de talents tirent parti d'une connaissance approfondie du marché, de réseaux étendus et de méthodologies éprouvées pour connecter les organisations avec des candidats exceptionnels. Nous adoptons une approche consultative, travaillant en étroite collaboration avec les responsables du recrutement pour comprendre leurs besoins, leur culture et leurs objectifs stratégiques.",
       "content4": "Des cadres dirigeants aux professionnels spécialisés, POC International vous aide à construire des équipes qui ne sont pas seulement qualifiées, mais vraiment alignées avec la vision et les valeurs de votre organisation. Partenaires avec nous pour transformer votre processus d'acquisition de talents et sécuriser les personnes qui feront avancer votre organisation."
+    },
+    "businessImpact": {
+      "title": "Impact Commercial | POC International",
+      "metaDescription": "Découvrez l'impact mesurable que POC International a créé pour les organisations du monde entier. Découvrez nos résultats, les histoires de succès des clients et notre engagement à stimuler la transformation.",
+      "heroTitle": "Impact Commercial",
+      "heroSubtitle": "Résultats mesurables qui stimulent la transformation",
+      "metric1": { "value": "500+", "label": "Organisations Transformées" },
+      "metric2": { "value": "10 000+", "label": "Leaders Développés" },
+      "metric3": { "value": "95%", "label": "Satisfaction Client" },
+      "metric4": { "value": "50+", "label": "Pays Desservis" },
+      "overviewTitle": "Notre Impact",
+      "overviewContent1": "Chez POC International, nous mesurons le succès par l'impact durable que nous créons pour nos clients. Notre engagement envers l'excellence a donné des résultats transformateurs dans tous les secteurs, géographies et tailles d'organisations.",
+      "overviewContent2": "Chaque engagement est conçu pour fournir des résultats mesurables qui stimulent la croissance durable, améliorent les capacités organisationnelles et libèrent le plein potentiel des personnes et des entreprises.",
+      "resultsTitle": "Résultats Clés",
+      "result1": {
+        "title": "Amélioration de la Performance",
+        "content": "Les organisations travaillant avec POC International ont vu des améliorations de performance moyennes de 35% dans la première année d'engagement."
+      },
+      "result2": {
+        "title": "Développement des Talents",
+        "content": "Nous avons aidé à développer plus de 10 000 leaders à tous les niveaux, créant un pipeline de talents qui stimule le succès organisationnel."
+      },
+      "result3": {
+        "title": "Succès de la Transformation",
+        "content": "Nos programmes de transformation ont un taux de succès de 90%, les organisations atteignant leurs objectifs stratégiques et construisant des capacités durables."
+      },
+      "commitmentTitle": "Notre Engagement",
+      "commitmentContent": "Nous nous engageons à fournir une valeur exceptionnelle et un impact mesurable. Notre approche combine une expertise approfondie, des méthodologies éprouvées et un focus inébranlable sur les résultats pour aider les organisations à atteindre leurs objectifs les plus ambitieux."
+    },
+    "corporateResponsibility": {
+      "title": "Responsabilité d'Entreprise | POC International",
+      "metaDescription": "Découvrez l'engagement de POC International envers la responsabilité d'entreprise, la durabilité et l'impact positif dans les communautés que nous servons.",
+      "heroTitle": "Responsabilité d'Entreprise",
+      "heroSubtitle": "Créer un impact positif au-delà des affaires",
+      "overviewTitle": "Notre Engagement",
+      "overviewContent1": "Chez POC International, nous croyons que le succès commercial et la responsabilité sociale vont de pair. Notre engagement envers la responsabilité d'entreprise s'étend au-delà de nos services de conseil pour englober la gestion environnementale, l'impact social et les pratiques commerciales éthiques.",
+      "overviewContent2": "Nous nous engageons à créer de la valeur non seulement pour nos clients, mais pour toutes les parties prenantes—y compris nos employés, les communautés et l'environnement.",
+      "pillarsTitle": "Nos Piliers de Responsabilité",
+      "pillar1": {
+        "title": "Personnes & Culture",
+        "content": "Nous favorisons un lieu de travail inclusif, diversifié et favorable où chaque membre de l'équipe peut prospérer. Notre engagement envers le bien-être des employés, le développement professionnel et l'équilibre travail-vie crée un environnement où l'excellence s'épanouit."
+      },
+      "pillar2": {
+        "title": "Durabilité Environnementale",
+        "content": "Nous nous engageons à réduire notre empreinte environnementale grâce à des pratiques commerciales durables, une gestion responsable des ressources et un soutien aux initiatives environnementales qui créent un impact positif."
+      },
+      "pillar3": {
+        "title": "Engagement Communautaire",
+        "content": "Nous nous engageons activement avec les communautés grâce à des programmes de bénévolat, des dons caritatifs et des partenariats avec des organisations qui stimulent le changement social positif et soutiennent ceux dans le besoin."
+      },
+      "pillar4": {
+        "title": "Pratiques Commerciales Éthiques",
+        "content": "Nous maintenons les normes les plus élevées d'intégrité, de transparence et de conduite éthique dans toutes nos relations commerciales et opérations, garantissant la confiance et la responsabilité dans tout ce que nous faisons."
+      },
+      "commitmentTitle": "Perspectives",
+      "commitmentContent": "Notre engagement envers la responsabilité d'entreprise est continu et évolutif. Nous cherchons continuellement de nouvelles façons de créer un impact positif, de réduire notre empreinte environnementale et de contribuer au bien-être des communautés du monde entier."
+    },
+    "investorRelations": {
+      "title": "Relations Investisseurs | POC International",
+      "metaDescription": "Informations sur les relations investisseurs pour POC International. Accédez aux rapports financiers, ressources investisseurs et informations de contact.",
+      "heroTitle": "Relations Investisseurs",
+      "heroSubtitle": "Communication transparente avec nos investisseurs",
+      "overviewTitle": "Bienvenue aux Relations Investisseurs",
+      "overviewContent1": "POC International s'engage à maintenir une communication transparente et efficace avec nos investisseurs, actionnaires et la communauté financière. Nous fournissons un accès rapide aux informations financières, mises à jour d'entreprise et perspectives stratégiques.",
+      "overviewContent2": "Notre équipe de relations investisseurs se consacre à construire des relations solides et à garantir que toutes les parties prenantes ont les informations nécessaires pour prendre des décisions éclairées.",
+      "resourcesTitle": "Ressources Investisseurs",
+      "resource1": {
+        "title": "Rapports Annuels",
+        "content": "Accédez à nos rapports annuels complets détaillant la performance financière, les initiatives stratégiques et la gouvernance d'entreprise."
+      },
+      "resource2": {
+        "title": "Performance Financière",
+        "content": "Consultez nos derniers résultats financiers, rapports de bénéfices et indicateurs clés de performance."
+      },
+      "resource3": {
+        "title": "Événements & Présentations",
+        "content": "Restez informé sur les prochains événements investisseurs, webinaires et présentations de notre équipe de direction."
+      },
+      "resource4": {
+        "title": "Contact Investisseurs",
+        "content": "Connectez-vous avec notre équipe de relations investisseurs pour des questions, demandes ou pour planifier une réunion."
+      },
+      "download": "Télécharger",
+      "view": "Voir",
+      "contact": "Contacter",
+      "contactTitle": "Contacter les Relations Investisseurs",
+      "contactContent": "Pour les demandes d'investisseurs, veuillez contacter notre équipe de relations investisseurs:"
+    },
+    "newsroom": {
+      "title": "Salle de Presse | POC International",
+      "metaDescription": "Dernières nouvelles, communiqués de presse et ressources médias de POC International. Restez informé des annonces de l'entreprise et des perspectives de l'industrie.",
+      "heroTitle": "Salle de Presse",
+      "heroSubtitle": "Dernières nouvelles et mises à jour de POC International",
+      "latestTitle": "Dernières Nouvelles",
+      "news1": {
+        "date": "15 Décembre 2024",
+        "title": "POC International Élargit sa Présence Mondiale avec un Nouveau Bureau à Singapour",
+        "excerpt": "POC International annonce l'ouverture de son nouveau siège Asie-Pacifique à Singapour, renforçant sa capacité à servir les clients dans toute la région.",
+        "category": "Nouvelles d'Entreprise"
+      },
+      "news2": {
+        "date": "20 Novembre 2024",
+        "title": "Nouvelle Recherche: L'Avenir du Développement du Leadership",
+        "excerpt": "POC International publie une recherche complète sur les tendances émergentes dans le développement du leadership et leur impact sur le succès organisationnel.",
+        "category": "Recherche"
+      },
+      "news3": {
+        "date": "10 Octobre 2024",
+        "title": "Succès Client Majeur: Programme de Transformation Livre 40% d'Amélioration de Performance",
+        "excerpt": "Une entreprise technologique de premier plan atteint des résultats remarquables grâce au programme de transformation organisationnelle de POC International.",
+        "category": "Succès Client"
+      },
+      "readMore": "Lire Plus",
+      "mediaTitle": "Demandes Médias",
+      "mediaContent": "Pour les demandes médias, communiqués de presse ou demandes d'interview, veuillez contacter notre équipe de relations médias:"
+    },
+    "organizationStrategy": {
+      "title": "Services de Stratégie Organisationnelle | POC International",
+      "metaDescription": "Développez des stratégies organisationnelles gagnantes avec POC International. Nous vous aidons à aligner la structure, la culture et les capacités pour atteindre vos objectifs stratégiques.",
+      "heroTitle": "Stratégie Organisationnelle",
+      "content1": "Une stratégie organisationnelle efficace est le fondement d'un avantage concurrentiel durable. Elle nécessite une compréhension approfondie de votre contexte commercial, une vision claire de l'avenir et la capacité d'aligner tous les éléments organisationnels—structure, processus, culture et talents—vers des objectifs communs.",
+      "content2": "POC International s'associe aux organisations pour développer et exécuter des stratégies qui stimulent la croissance, améliorent la compétitivité et créent une valeur durable. Notre approche combine la pensée stratégique avec l'exécution pratique, garantissant que votre stratégie devient réalité.",
+      "servicesTitle": "Nos Services de Stratégie Organisationnelle",
+      "service1": "Planification stratégique et développement de vision",
+      "service2": "Conception organisationnelle et optimisation de structure",
+      "service3": "Alignement culturel et transformation",
+      "service4": "Exécution stratégique et gestion du changement",
+      "content3": "Nous travaillons en étroite collaboration avec les équipes de direction pour créer des stratégies qui ne sont pas seulement bien conçues mais aussi exécutables, garantissant que votre organisation peut atteindre ses objectifs les plus ambitieux."
+    },
+    "totalRewards": {
+      "title": "Conseil en Rémunération Globale | POC International",
+      "metaDescription": "Concevez des programmes de rémunération globale complets qui attirent, motivent et retiennent les meilleurs talents. POC International vous aide à créer des stratégies de compensation et d'avantages compétitives.",
+      "heroTitle": "Rémunération Globale",
+      "content1": "La rémunération globale englobe tous les aspects de la compensation et des avantages des employés—du salaire de base et des primes aux avantages de santé, plans de retraite et récompenses non financières comme les opportunités de développement de carrière et l'équilibre travail-vie.",
+      "content2": "Une stratégie de rémunération globale bien conçue est essentielle pour attirer les meilleurs talents, motiver une performance élevée et retenir vos meilleurs employés. POC International aide les organisations à développer des programmes de rémunération globale complets qui s'alignent avec les objectifs commerciaux et les réalités du marché.",
+      "servicesTitle": "Nos Services de Rémunération Globale",
+      "service1": "Stratégie de compensation et benchmarking",
+      "service2": "Conception et optimisation des avantages",
+      "service3": "Compensation exécutive et programmes d'équité",
+      "service4": "Communication des récompenses et engagement des employés",
+      "content3": "Nos experts en rémunération globale vous aident à créer des programmes qui sont compétitifs, rentables et alignés avec la culture et les valeurs de votre organisation."
+    },
+    "assessmentSuccession": {
+      "title": "Évaluation & Planification de la Relève | POC International",
+      "metaDescription": "Construisez des pipelines de relève robustes et évaluez les talents efficacement. POC International fournit des services complets d'évaluation et de planification de la relève.",
+      "heroTitle": "Évaluation & Relève",
+      "content1": "Une évaluation efficace des talents et une planification de la relève sont essentielles pour la continuité organisationnelle et le succès à long terme. Elles garantissent que vous avez les bonnes personnes dans les bons rôles, maintenant et à l'avenir, et que votre organisation est préparée pour les transitions de leadership.",
+      "content2": "POC International aide les organisations à développer des processus complets d'évaluation et de planification de la relève qui identifient les talents à haut potentiel, évaluent la préparation aux rôles clés et construisent des pipelines robustes pour les besoins futurs de leadership.",
+      "servicesTitle": "Nos Services d'Évaluation & Relève",
+      "service1": "Évaluation et évaluation des talents",
+      "service2": "Planification de la relève et développement de pipeline",
+      "service3": "Évaluation de la préparation au leadership",
+      "service4": "Planification du développement et coaching",
+      "content3": "Nos experts en évaluation et relève utilisent des méthodologies et outils éprouvés pour vous aider à prendre des décisions éclairées sur les talents et garantir la continuité organisationnelle."
+    },
+    "talentSuiteOverview": {
+      "title": "Vue d'Ensemble de la Suite Talents | POC International",
+      "metaDescription": "Découvrez la Suite Talents complète de POC International—solutions intégrées pour la gestion des talents, l'évaluation, l'engagement et la performance.",
+      "heroTitle": "Vue d'Ensemble de la Suite Talents",
+      "content1": "La Suite Talents POC est un ensemble complet de solutions intégrées conçues pour aider les organisations à gérer, développer et optimiser leurs talents tout au long du cycle de vie des employés. Du recrutement à la rétention, notre suite fournit les outils et perspectives nécessaires pour construire des équipes performantes.",
+      "content2": "Chaque produit de la Suite Talents répond à des défis spécifiques de gestion des talents tout en travaillant de manière transparente ensemble pour créer une stratégie de talents unifiée qui stimule le succès organisationnel.",
+      "productsTitle": "Produits de la Suite Talents",
+      "product1": "POC Architect - Conception organisationnelle et structure",
+      "product2": "POC Assess - Évaluation et évaluation des talents",
+      "product3": "POC Listen - Engagement et feedback des employés",
+      "product4": "POC Pay - Gestion de la compensation et des récompenses",
+      "product5": "POC Sell - Performance et enablement des ventes",
+      "product6": "Analyses et rapports intégrés sur tous les produits",
+      "content3": "Ensemble, ces produits créent un écosystème complet de gestion des talents qui aide les organisations à attirer, développer et retenir les talents nécessaires pour atteindre leurs objectifs stratégiques."
+    },
+    "pocArchitect": {
+      "title": "POC Architect | POC International",
+      "metaDescription": "POC Architect aide les organisations à concevoir des structures organisationnelles optimales et à aligner les personnes, processus et systèmes pour une efficacité maximale.",
+      "heroTitle": "POC Architect",
+      "content1": "POC Architect est une solution complète de conception organisationnelle qui aide les organisations à créer des structures, rôles et processus qui s'alignent avec les objectifs stratégiques et permettent une performance élevée.",
+      "content2": "Que vous restructuriez, développiez ou optimisiez votre organisation, POC Architect fournit les outils et l'expertise nécessaires pour concevoir et mettre en œuvre des structures organisationnelles efficaces.",
+      "featuresTitle": "Caractéristiques Clés",
+      "feature1": "Conception et modélisation de structure organisationnelle",
+      "feature2": "Définition de rôle et architecture d'emploi",
+      "feature3": "Cartographie et optimisation des processus",
+      "feature4": "Gestion du changement et support d'implémentation",
+      "content3": "POC Architect vous aide à construire des organisations qui sont agiles, efficaces et alignées avec votre vision stratégique."
+    },
+    "pocAssess": {
+      "title": "POC Assess | POC International",
+      "metaDescription": "POC Assess fournit des solutions complètes d'évaluation des talents pour aider les organisations à prendre des décisions éclairées sur le recrutement, le développement et la relève.",
+      "heroTitle": "POC Assess",
+      "content1": "POC Assess est une plateforme d'évaluation des talents puissante qui fournit des perspectives complètes sur les capacités, le potentiel et l'adéquation des candidats et employés.",
+      "content2": "Nos solutions d'évaluation aident les organisations à prendre des décisions basées sur les données concernant les talents, du recrutement initial au développement et à la planification de la relève.",
+      "featuresTitle": "Caractéristiques Clés",
+      "feature1": "Outils et méthodologies d'évaluation complets",
+      "feature2": "Évaluations comportementales et cognitives",
+      "feature3": "Feedback et évaluation à 360 degrés",
+      "feature4": "Analyses et rapports sur les talents",
+      "content3": "POC Assess permet aux organisations de prendre des décisions éclairées sur les talents qui stimulent la performance et le succès organisationnel."
+    },
+    "pocListen": {
+      "title": "POC Listen | POC International",
+      "metaDescription": "POC Listen aide les organisations à comprendre et améliorer l'engagement des employés grâce à des stratégies d'écoute complètes et des mécanismes de feedback.",
+      "heroTitle": "POC Listen",
+      "content1": "POC Listen est une plateforme d'engagement et de feedback des employés qui aide les organisations à comprendre ce que les employés pensent, ressentent et ont besoin pour performer au mieux.",
+      "content2": "Grâce à l'écoute régulière, aux enquêtes pulse et aux mécanismes de feedback complets, POC Listen permet aux organisations d'identifier les problèmes tôt, de répondre aux préoccupations de manière proactive et de créer des environnements où les employés prospèrent.",
+      "featuresTitle": "Caractéristiques Clés",
+      "feature1": "Enquêtes d'engagement des employés et contrôles pulse",
+      "feature2": "Collecte et analyse de feedback en temps réel",
+      "feature3": "Outils de planification d'action et d'intervention",
+      "feature4": "Benchmarking et analyse de tendances",
+      "content3": "POC Listen aide les organisations à créer des cultures d'amélioration continue et d'engagement des employés qui stimulent la performance et la rétention."
+    },
+    "pocPay": {
+      "title": "POC Pay | POC International",
+      "metaDescription": "POC Pay fournit des solutions complètes de gestion de la compensation et des récompenses pour aider les organisations à concevoir et gérer des programmes de rémunération globale compétitifs.",
+      "heroTitle": "POC Pay",
+      "content1": "POC Pay est une plateforme complète de gestion de la compensation et des récompenses qui aide les organisations à concevoir, mettre en œuvre et gérer des programmes de rémunération globale compétitifs.",
+      "content2": "Du salaire de base à la rémunération variable, des avantages aux récompenses non financières, POC Pay fournit les outils et perspectives nécessaires pour créer des stratégies de compensation qui attirent, motivent et retiennent les meilleurs talents.",
+      "featuresTitle": "Caractéristiques Clés",
+      "feature1": "Benchmarking de compensation et analyse de marché",
+      "feature2": "Conception et administration de structure de rémunération",
+      "feature3": "Planification de compensation basée sur la performance",
+      "feature4": "Communication et transparence de la rémunération globale",
+      "content3": "POC Pay aide les organisations à créer des programmes de compensation qui sont compétitifs, équitables et alignés avec les objectifs commerciaux."
+    },
+    "pocSell": {
+      "title": "POC Sell | POC International",
+      "metaDescription": "POC Sell aide les organisations à optimiser la performance des ventes grâce à une conception efficace de la force de vente, l'enablement et la gestion de la performance.",
+      "heroTitle": "POC Sell",
+      "content1": "POC Sell est une solution de performance et d'enablement des ventes qui aide les organisations à concevoir des organisations de vente efficaces, à permettre aux équipes de vente et à optimiser la performance des ventes.",
+      "content2": "Que vous construisiez une nouvelle organisation de vente ou optimisiez une existante, POC Sell fournit les outils et l'expertise nécessaires pour créer des équipes de vente performantes qui stimulent la croissance des revenus.",
+      "featuresTitle": "Caractéristiques Clés",
+      "feature1": "Conception et structure d'organisation de vente",
+      "feature2": "Programmes d'enablement et de formation des ventes",
+      "feature3": "Gestion et analyses de performance des ventes",
+      "feature4": "Conception d'incitation et planification de compensation",
+      "content3": "POC Sell aide les organisations à construire des capacités de vente qui stimulent une croissance constante des revenus et un avantage concurrentiel."
+    },
+    "cookieSettings": {
+      "title": "Paramètres des Cookies | POC International",
+      "metaDescription": "Gérez vos préférences de cookies et paramètres de confidentialité sur le site web de POC International.",
+      "heroTitle": "Paramètres des Cookies",
+      "intro": "Gérez vos préférences de cookies ci-dessous. Vous pouvez activer ou désactiver différents types de cookies. Les cookies essentiels sont toujours activés car ils sont nécessaires au bon fonctionnement du site web.",
+      "essentialLabel": "Cookies Essentiels",
+      "essentialDesc": "Ces cookies sont nécessaires au fonctionnement du site web et ne peuvent pas être désactivés.",
+      "analyticsLabel": "Cookies d'Analyse",
+      "analyticsDesc": "Nous aident à comprendre comment les visiteurs interagissent avec notre site web en collectant des informations anonymes.",
+      "functionalLabel": "Cookies Fonctionnels",
+      "functionalDesc": "Mémorisent vos préférences et fournissent des fonctionnalités améliorées et personnalisées.",
+      "marketingLabel": "Cookies Marketing",
+      "marketingDesc": "Utilisés pour diffuser des publicités et suivre l'efficacité des campagnes.",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "saveButton": "Enregistrer les Préférences",
+      "acceptAllButton": "Accepter Tous les Cookies",
+      "savedMessage": "Vos préférences de cookies ont été enregistrées."
+    },
+    "accessibility": {
+      "title": "Déclaration d'Accessibilité | POC International",
+      "metaDescription": "L'engagement de POC International envers l'accessibilité web et garantir que notre site web est utilisable par tous.",
+      "heroTitle": "Accessibilité",
+      "commitmentTitle": "Notre Engagement",
+      "commitmentContent": "POC International s'engage à assurer l'accessibilité numérique pour les personnes handicapées. Nous améliorons continuellement l'expérience utilisateur pour tous et appliquons les normes d'accessibilité pertinentes pour atteindre cet objectif.",
+      "standardsTitle": "Normes d'Accessibilité",
+      "standardsContent1": "Nous visons à nous conformer aux normes WCAG 2.1 Niveau AA. Nos efforts incluent:",
+      "standard1": "Fournir du texte alternatif pour les images et le contenu visuel",
+      "standard2": "Assurer la navigation au clavier et la compatibilité avec les lecteurs d'écran",
+      "standard3": "Maintenir un contraste de couleur suffisant pour la lisibilité",
+      "standard4": "Fournir des en-têtes clairs et une structure pour le contenu",
+      "standardsContent2": "Nous examinons régulièrement notre site web et apportons des améliorations pour améliorer l'accessibilité et la convivialité.",
+      "featuresTitle": "Caractéristiques d'Accessibilité",
+      "feature1": "Support de navigation au clavier sur tout le site",
+      "feature2": "Compatibilité avec les lecteurs d'écran",
+      "feature3": "Texte alternatif pour les images et le contenu visuel",
+      "feature4": "Structure d'en-tête claire et HTML sémantique",
+      "feature5": "Contraste de couleur suffisant pour la lisibilité du texte",
+      "feedbackTitle": "Commentaires",
+      "feedbackContent": "Nous accueillons les commentaires sur l'accessibilité de notre site web. Si vous rencontrez des obstacles à l'accessibilité, veuillez nous contacter:",
+      "contactLink": "Formulaire de Contact"
+    },
+    "subscribe": {
+      "title": "S'abonner à Notre Newsletter | POC International",
+      "metaDescription": "Abonnez-vous à la newsletter de POC International pour recevoir les dernières perspectives, mises à jour et nouvelles de l'industrie.",
+      "heroTitle": "S'abonner",
+      "heroSubtitle": "Restez informé avec nos dernières perspectives et mises à jour",
+      "emailLabel": "Adresse E-mail",
+      "emailPlaceholder": "Entrez votre adresse e-mail",
+      "preferencesLabel": "Préférences d'Abonnement",
+      "preferenceNewsletter": "Newsletter - Mises à jour mensuelles et nouvelles d'entreprise",
+      "preferenceInsights": "Perspectives - Recherche de l'industrie et leadership d'opinion",
+      "preferenceUpdates": "Mises à jour - Annonces de produits et mises à jour de services",
+      "submitButton": "S'abonner",
+      "privacyNote": "En vous abonnant, vous acceptez notre Politique de Confidentialité. Vous pouvez vous désabonner à tout moment.",
+      "successTitle": "Merci de Vous Être Abonné!",
+      "successMessage": "Vous vous êtes abonné avec succès à notre newsletter. Vous recevrez nos dernières mises à jour et perspectives."
     }
   }
 }
