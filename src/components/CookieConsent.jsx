@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Cookie } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 export default function CookieConsent() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [showConsent, setShowConsent] = useState(false);
 
   useEffect(() => {
@@ -79,26 +81,24 @@ export default function CookieConsent() {
 
               {/* Links */}
               <div className="mb-4">
-                <a
-                  href="#"
-                  className="text-sm text-[#0066ff] hover:underline mr-4"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    // You can add navigation to cookie policy page here
+                <button
+                  onClick={() => {
+                    setShowConsent(false);
+                    navigate('/CookiePolicy');
                   }}
+                  className="text-sm text-[#0066ff] hover:underline mr-4 text-left"
                 >
                   {t('cookies.learnMore')}
-                </a>
-                <a
-                  href="#"
-                  className="text-sm text-[#0066ff] hover:underline"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    // You can add navigation to privacy policy page here
+                </button>
+                <button
+                  onClick={() => {
+                    setShowConsent(false);
+                    navigate('/PrivacyPolicy');
                   }}
+                  className="text-sm text-[#0066ff] hover:underline text-left"
                 >
                   {t('cookies.privacyPolicy')}
-                </a>
+                </button>
               </div>
 
               {/* Buttons */}

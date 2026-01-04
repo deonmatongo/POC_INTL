@@ -1,4 +1,5 @@
 import Layout from "./Layout.jsx";
+import CookieConsent from "@/components/CookieConsent";
 
 import Home from "./Home";
 
@@ -19,6 +20,10 @@ import DataDrivenInsights from "./DataDrivenInsights";
 import OurStory from "./OurStory";
 
 import SEODashboard from "./SEODashboard";
+
+import PrivacyPolicy from "./PrivacyPolicy";
+
+import CookiePolicy from "./CookiePolicy";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -43,6 +48,10 @@ const PAGES = {
     OurStory: OurStory,
     
     SEODashboard: SEODashboard,
+    
+    PrivacyPolicy: PrivacyPolicy,
+    
+    CookiePolicy: CookiePolicy,
     
 }
 
@@ -91,7 +100,12 @@ function PagesContent() {
                 
                 <Route path="/SEODashboard" element={<SEODashboard />} />
                 
+                <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                
+                <Route path="/CookiePolicy" element={<CookiePolicy />} />
+                
             </Routes>
+            <CookieConsent />
         </Layout>
     );
 }
